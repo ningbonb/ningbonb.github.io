@@ -435,46 +435,46 @@ oDiv2.addEventListener(&apos;touchstart&apos;,thismousedown);
 oDiv2.addEventListener(&apos;touchend&apos;,thismouseup);  
 oDiv2.addEventListener(&apos;touchmove&apos;,thismousemove);  
 function thismousedown(e){
-isdrag = true;   
-console.log(e);
-NowLeft = oDiv2.offsetLeft;  
-NowTop = oDiv2.offsetTop;   
-disX = e.touches[0].pageX;
-disY = e.touches[0].pageY;
-return false;
+    isdrag = true;   
+    console.log(e);
+    NowLeft = oDiv2.offsetLeft;  
+    NowTop = oDiv2.offsetTop;   
+    disX = e.touches[0].pageX;
+    disY = e.touches[0].pageY;
+    return false;
 }
 function thismousemove(e){   
-if(isdrag){
-   oDiv2.style.left = NowLeft + e.touches[0].pageX - disX + &apos;px&apos;; 
-   oDiv2.style.top = NowTop + e.touches[0].pageY - disY + &apos;px&apos;;
-   return false;   
-}   
+    if(isdrag){
+           oDiv2.style.left = NowLeft + e.touches[0].pageX - disX + &apos;px&apos;; 
+           oDiv2.style.top = NowTop + e.touches[0].pageY - disY + &apos;px&apos;;
+           return false;   
+    }   
 }   
 function thismouseup(){  
-isdrag = false;  
+    isdrag = false;  
 };
 </code></pre><p><strong>jQuery实现鼠标拖拽效果</strong></p>
 <pre><code>//鼠标按下
 $(&quot;#gamecar&quot;).on(&quot;mousedown&quot;,function(ev){
-var ev = ev || window.event;
-var offsetX = ev.offsetX;
-var offsetY = ev.offsetY;
-//鼠标移动
-$(document).on(&quot;mousemove&quot;,function(ev){
-var ev = ev || window.event;
-var carLeft = ev.clientX - offsetX + &quot;px&quot;;
-var carTop = ev.clientY - offsetY + &quot;px&quot;;
-$(&quot;#gamecar&quot;).css({
-left: carLeft,
-top: carTop
-});
-});
-//鼠标移开
-$(document).on(&quot;mouseup&quot;,function(){
-//移除元素所有的事件处理器
-$(document).unbind();
-});
-return false;
+    var ev = ev || window.event;
+    var offsetX = ev.offsetX;
+    var offsetY = ev.offsetY;
+    //鼠标移动
+    $(document).on(&quot;mousemove&quot;,function(ev){
+        var ev = ev || window.event;
+        var carLeft = ev.clientX - offsetX + &quot;px&quot;;
+        var carTop = ev.clientY - offsetY + &quot;px&quot;;
+        $(&quot;#gamecar&quot;).css({
+            left: carLeft,
+            top: carTop
+        });
+    });
+    //鼠标移开
+    $(document).on(&quot;mouseup&quot;,function(){
+        //移除元素所有的事件处理器
+        $(document).unbind();
+    });
+    return false;
 });
 </code></pre><h2 id="完整代码示范"><a href="#完整代码示范" class="headerlink" title="完整代码示范"></a>完整代码示范</h2><pre><code>&lt;!DOCTYPE html&gt;
 &lt;html&gt;
@@ -482,56 +482,56 @@ return false;
 &lt;meta charset=&quot;UTF-8&quot;&gt;
 &lt;title&gt;&lt;/title&gt;
 &lt;style&gt;
-*{
-padding: 0;
-margin: 0;
-}
-#div1{
-width: 100px;
-height: 100px;
-background-color: red;
-position: absolute;
-left: 100px;
-top: 200px;
-border-radius: 50%;
-box-shadow: 0 0 2px 3px red;
-}
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    #div1{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        position: absolute;
+        left: 100px;
+        top: 200px;
+        border-radius: 50%;
+        box-shadow: 0 0 2px 3px red;
+    }
 &lt;/style&gt;
 &lt;/head&gt;
 &lt;body&gt;
-&lt;div id=&quot;div1&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;div1&quot;&gt;&lt;/div&gt;
 &lt;/body&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
 var div1 = document.getElementById(&apos;div1&apos;);
 
 //鼠标按下
 div1.onmousedown = function(ev){
-console.log(&apos;鼠标按下了&apos;);
-var ev = ev || event;
+    console.log(&apos;鼠标按下了&apos;);
+    var ev = ev || event;
 
-//获取鼠标距离元素左边和上边的距离
-//方式1:火狐旧版本不兼容
-//var offsetX = ev.offsetX;
-//var offsetY = ev.offsetY;
-//方式2
-var offsetX = ev.clientX - this.offsetLeft;
-var offsetY = ev.clientY - this.offsetTop;
+    //获取鼠标距离元素左边和上边的距离
+    //方式1:火狐旧版本不兼容
+    //var offsetX = ev.offsetX;
+    //var offsetY = ev.offsetY;
+    //方式2
+    var offsetX = ev.clientX - this.offsetLeft;
+    var offsetY = ev.clientY - this.offsetTop;
 
-document.onmousemove = function(ev){
+    document.onmousemove = function(ev){
 
-var ev = ev || event;
-console.log(ev.clientX,ev.clientY);
+        var ev = ev || event;
+        console.log(ev.clientX,ev.clientY);
 
-div1.style.left = ev.clientX - offsetX + &apos;px&apos;;
-div1.style.top = ev.clientY - offsetY + &apos;px&apos;;
-};
+        div1.style.left = ev.clientX - offsetX + &apos;px&apos;;
+        div1.style.top = ev.clientY - offsetY + &apos;px&apos;;
+    };
 
-//鼠标抬起，取消移动事件
-document.onmouseup = function(){
-document.onmouseup = document.onmousemove = null;
-};
+    //鼠标抬起，取消移动事件
+    document.onmouseup = function(){
+        document.onmouseup = document.onmousemove = null;
+    };
 
-return false;
+    return false;
 };
 
 /*
