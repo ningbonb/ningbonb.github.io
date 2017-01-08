@@ -10,7 +10,7 @@
     <!-- Title -->
     
     <title>
-        正则表达式 | NingBo&#39;Blog
+        javaScript和jQuery实现拖拽效果 | NingBo&#39;Blog
     </title>
     
     <!-- Favicons -->
@@ -46,7 +46,7 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://ningbo00.top">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="正则表达式 | NingBo&#39;Blog">
+    <meta property="og:title" content="javaScript和jQuery实现拖拽效果 | NingBo&#39;Blog">
     <meta property="og:description" content="宁勃的博客">
     
      <!--[if lte IE 9]>
@@ -223,7 +223,7 @@
 	<ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect"
 		for="post-toc-trigger-btn">
 			
-			<ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#正则表达式简介"><span class="post-toc-number">1.</span> <span class="post-toc-text">正则表达式简介</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#正则表达式的目的"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">正则表达式的目的</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#正则表达式的特点"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">正则表达式的特点</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#JavaScript-RegExp对象"><span class="post-toc-number">1.3.</span> <span class="post-toc-text">JavaScript RegExp对象</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#JavaScript中正则表达式的声明方式"><span class="post-toc-number">1.3.1.</span> <span class="post-toc-text">JavaScript中正则表达式的声明方式</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#直接量语法"><span class="post-toc-number">1.3.2.</span> <span class="post-toc-text">直接量语法</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#方括号"><span class="post-toc-number">1.3.3.</span> <span class="post-toc-text">方括号</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#元字符"><span class="post-toc-number">1.3.4.</span> <span class="post-toc-text">元字符</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#量词"><span class="post-toc-number">1.3.5.</span> <span class="post-toc-text">量词</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#RegExp对象的方法"><span class="post-toc-number">1.3.6.</span> <span class="post-toc-text">RegExp对象的方法</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#支持正则表达式的-String-对象的方法"><span class="post-toc-number">1.3.7.</span> <span class="post-toc-text">支持正则表达式的 String 对象的方法</span></a></li></ol></li></ol></li></ol>
+			<ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#javaScript实现拖拽效果"><span class="post-toc-number">1.</span> <span class="post-toc-text">javaScript实现拖拽效果</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Event对象介绍"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">Event对象介绍</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#事件句柄"><span class="post-toc-number">1.1.1.</span> <span class="post-toc-text">事件句柄</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#鼠标属性"><span class="post-toc-number">1.1.2.</span> <span class="post-toc-text">鼠标属性</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#javaScript实现"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">javaScript实现</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#完整代码示范"><span class="post-toc-number">1.3.</span> <span class="post-toc-text">完整代码示范</span></a></li></ol></li></ol>
 		
 <!--			<li class="mdl-menu__item">Some Action</li>-->
 	</ul>
@@ -257,7 +257,7 @@
 		
 	
         <p class="article-headline-p">
-            正则表达式
+            javaScript和jQuery实现拖拽效果
         </p>
     </div>
 
@@ -275,7 +275,7 @@
     <!-- Author Name & Date -->
     <div>
         <strong>Ning Bo</strong>
-        <span>10月 10, 2016</span>
+        <span>11月 10, 2016</span>
     </div>
 
     <div class="section-spacer"></div>
@@ -300,7 +300,7 @@
     </button>
     <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
         <li class="mdl-menu__item">
-        <a class="post_tag-link" href="/tags/regExp-正则表达式/">regExp 正则表达式</a>
+        <a class="post_tag-link" href="/tags/javaScript-jQuery-拖拽/">javaScript jQuery 拖拽</a>
     </ul>
     
 
@@ -328,7 +328,7 @@
 
     <!-- Share Weibo -->
     
-    <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=正则表达式&url=http://ningbo00.top//2016/10/10/reg/index.html&pic=&searchPic=false&style=simple" target="_blank">
+    <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=javaScript和jQuery实现拖拽效果&url=http://ningbo00.top//2016/11/10/js-and-jq-drag/index.html&pic=&searchPic=false&style=simple" target="_blank">
         <li class="mdl-menu__item">
             分享到微博
         </li>
@@ -337,7 +337,7 @@
 
     <!-- Share Twitter -->
     
-    <a class="post_share-link" href="https://twitter.com/intent/tweet?text=正则表达式&url=http://ningbo00.top//2016/10/10/reg/index.html&via=Ning Bo" target="_blank">
+    <a class="post_share-link" href="https://twitter.com/intent/tweet?text=javaScript和jQuery实现拖拽效果&url=http://ningbo00.top//2016/11/10/js-and-jq-drag/index.html&via=Ning Bo" target="_blank">
         <li class="mdl-menu__item">
             分享到 Twitter
         </li>
@@ -346,7 +346,7 @@
 
     <!-- Share Facebook -->
     
-    <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://ningbo00.top//2016/10/10/reg/index.html" target="_blank">
+    <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://ningbo00.top//2016/11/10/js-and-jq-drag/index.html" target="_blank">
         <li class="mdl-menu__item">
             分享到 Facebook
         </li>
@@ -355,7 +355,7 @@
 
     <!-- Share Google+ -->
     
-    <a class="post_share-link" href="https://plus.google.com/share?url=http://ningbo00.top//2016/10/10/reg/index.html" target="_blank">
+    <a class="post_share-link" href="https://plus.google.com/share?url=http://ningbo00.top//2016/11/10/js-and-jq-drag/index.html" target="_blank">
         <li class="mdl-menu__item">
             分享到 Google+
         </li>
@@ -364,7 +364,7 @@
 
     <!-- Share LinkedIn -->
     
-    <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=http://ningbo00.top//2016/10/10/reg/index.html&title=正则表达式" target="_blank">
+    <a class="post_share-link" href="https://www.linkedin.com/shareArticle?mini=true&url=http://ningbo00.top//2016/11/10/js-and-jq-drag/index.html&title=javaScript和jQuery实现拖拽效果" target="_blank">
         <li class="mdl-menu__item">
             分享到 LinkedIn
         </li>
@@ -373,7 +373,7 @@
 
     <!-- Share QQ -->
     
-    <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=NingBo&#39;Blog&title=正则表达式&summary=宁勃的博客&pics=http://ningbo00.top/img/favicon.png&url=http://ningbo00.top/2016/10/10/reg/index.html" target="_blank">
+    <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=NingBo&#39;Blog&title=javaScript和jQuery实现拖拽效果&summary=宁勃的博客&pics=http://ningbo00.top/img/favicon.png&url=http://ningbo00.top/2016/11/10/js-and-jq-drag/index.html" target="_blank">
         <li class="mdl-menu__item">
             分享到 QQ
         </li>
@@ -382,7 +382,7 @@
 
     <!-- Share Telegram -->
     
-    <a class="post_share-link" href="https://telegram.me/share/url?url=http://ningbo00.top/2016/10/10/reg/index.html&text=正则表达式" target="_blank">
+    <a class="post_share-link" href="https://telegram.me/share/url?url=http://ningbo00.top/2016/11/10/js-and-jq-drag/index.html&text=javaScript和jQuery实现拖拽效果" target="_blank">
         <li class="mdl-menu__item">
             分享到 Telegram
         </li>
@@ -397,75 +397,176 @@
                 <!-- Post Content -->
                 <div id="post-content" class="markdown-Github mdl-color-text--grey-700 mdl-card__supporting-text fade out">
 	
-		<h1 id="正则表达式简介"><a href="#正则表达式简介" class="headerlink" title="正则表达式简介"></a>正则表达式简介</h1><h2 id="正则表达式的目的"><a href="#正则表达式的目的" class="headerlink" title="正则表达式的目的"></a>正则表达式的目的</h2><ol>
-<li>给定的字符串是否符合正则表达式的过滤逻辑（匹配）</li>
-<li>可以通过正则表达式，从字符串中获取我们想要的特定部分</li>
-</ol>
-<h2 id="正则表达式的特点"><a href="#正则表达式的特点" class="headerlink" title="正则表达式的特点"></a>正则表达式的特点</h2><ol>
-<li>灵活性、逻辑性和功能性非常的强</li>
-<li>可以迅速地用极简的方式达到字符串的复杂控制</li>
-</ol>
-<h2 id="JavaScript-RegExp对象"><a href="#JavaScript-RegExp对象" class="headerlink" title="JavaScript RegExp对象"></a>JavaScript RegExp对象</h2><p>RegExp对象用于规定在文本中检索的内容<br>当检索某个文件时，可以用RegExp这种模式来描述要检索的内容<br>复杂的模式可用于解析、格式检查、替换等等</p>
-<hr>
-<h3 id="JavaScript中正则表达式的声明方式"><a href="#JavaScript中正则表达式的声明方式" class="headerlink" title="JavaScript中正则表达式的声明方式"></a>JavaScript中正则表达式的声明方式</h3><p>创建RegExp对象的语法</p>
-<pre><code>var reg = new RegExp(参数1，参数2)
-</code></pre><ul>
-<li>参数1：正则公式（匹配原则）也可以是要匹配的字符串</li>
-<li>参数2：修饰符，可以省略<ul>
-<li>常用修饰符：i:忽略大小写 g:全局匹配 m:执行多行匹配(结合^ $使用)</li>
+		<h1 id="javaScript实现拖拽效果"><a href="#javaScript实现拖拽效果" class="headerlink" title="javaScript实现拖拽效果"></a>javaScript实现拖拽效果</h1><p>鼠标按下移动或者手指拖动对象，对象随之移动，鼠标放开或者手指离开屏幕，对象停止移动。</p>
+<h2 id="Event对象介绍"><a href="#Event对象介绍" class="headerlink" title="Event对象介绍"></a>Event对象介绍</h2><p>Event对象代表事件的状态，比如事件在其中发生的元素、键盘按键的状态、鼠标的位置、鼠标按钮的状态。</p>
+<p>事件通常与函数结合使用，函数不会在事件发生前被执行。</p>
+<h3 id="事件句柄"><a href="#事件句柄" class="headerlink" title="事件句柄"></a>事件句柄</h3><ul>
+<li>onmousedown 鼠标按钮被按下</li>
+<li>onmousemove 鼠标被移动</li>
+<li>onmouseup 鼠标从某元素移开</li>
 </ul>
+<h3 id="鼠标属性"><a href="#鼠标属性" class="headerlink" title="鼠标属性"></a>鼠标属性</h3><ul>
+<li>clientX 返回返回当事件被触发时鼠标指针向对于浏览器页面（或客户区）的水平坐标。</li>
+<li>注释：2 级 DOM 没有提供把窗口坐标转换为文档坐标的标准方法。在 IE 以外的浏览器，使用 window.pageXOffset 和 window.pageYOffset 即可。</li>
+<li>clientY 返回当事件被触发时鼠标指针向对于浏览器页面（客户区）的垂直坐标。</li>
+<li>注释：注意，该坐标不考虑文档的滚动。如果事件发生在窗口的顶部，无论文档滚了多远，clientY 的值都是 0。但是，2 级 DOM 没有提供把窗口坐标转换为文档坐标的标准方法。在 IE 以外的浏览器，使用 window.pageXOffset 和 window.pageYOffset 即可</li>
+<li>screenX 返回事件发生时鼠标指针相对于屏幕的水平坐标。</li>
+<li>screenY 返回事件发生时鼠标指针相对于屏幕的垂直坐标。</li>
+<li>offsetX,offsetY 发生事件的地点在事件源元素的坐标系统中的 x 坐标和 y 坐标。</li>
+<li>offsetLeft 返回当前元素的相对水平偏移位置的偏移容器。</li>
+<li>offsetTop 返回当前元素的相对垂直偏移位置的偏移容器</li>
+<li>offsetHeight 返回，任何一个元素的高度包括边框和填充，但不是边距</li>
+<li>offsetWidth 返回元素的宽度，包括边框和填充，但不是边距</li>
+<li>offsetParent 返回元素的偏移容器</li>
+<li>jQuery event.pageX 返回相对于文档左边缘的鼠标位置</li>
+<li>jQuery event.pageY 返回相对于文档上边缘的鼠标位</li>
+</ul>
+<h2 id="javaScript实现"><a href="#javaScript实现" class="headerlink" title="javaScript实现"></a>javaScript实现</h2><ul>
+<li>onmousedown</li>
+<li>document.onmousemove</li>
+<li><p>document.onmouseup</p>
+<p>  //鼠标按下<br>  var div1 = document.getElementById(“div1”);<br>  div1.onmousedown = function(ev){</p>
+<pre><code>var ev = ev || event;
+//获取鼠标距离元素左边和上边的距离
+//方式1：火狐旧版本不支持
+//var offsetX = ev.offsetX;
+//var offsetY = ev.offsetY;
+//方式2
+var offsetX = ev.clientX - ev.offsetLeft;
+var offsetY = ev.clientY - ev.offsetTop;
+
+//鼠标按下
+document.onmousemove = function(ev){
+    var ev = ev || event;
+    div1.style.left = ev.clientX - this.offsetX + &quot;px&quot;;
+    div1.style.top = ev.clientY - this.offsetY + &quot;px&quot;;
+};
+//鼠标抬起，取消移动事件
+document.onmouseup = function(){
+    document.onmouseup = document.onmousemove = null;
+}；
+
+return false;
+</code></pre><p>  };</p>
 </li>
 </ul>
-<h3 id="直接量语法"><a href="#直接量语法" class="headerlink" title="直接量语法"></a>直接量语法</h3><pre><code>var reg3 = /参数1/修饰符；
-</code></pre><ul>
-<li>参数不能写成字符串</li>
-<li>参数1：匹配原则</li>
-<li>参数2：可选，修饰符（i g m）</li>
-</ul>
-<h3 id="方括号"><a href="#方括号" class="headerlink" title="方括号"></a>方括号</h3><ul>
-<li>[abc]：查找方括号之间的任何字符。</li>
-<li>[^abc]：查找任何不在方括号之间的字符。</li>
-<li>[0-9]：查找任何从 0 至 9 的数字。</li>
-<li>[a-z]：查找任何从小写 a 到小写 z 的字符。</li>
-<li>[A-Z]：查找任何从大写 A 到大写 Z 的字符。</li>
-<li>[A-z]：查找任何从大写 A 到小写 z 的字符。</li>
-<li>[adgk]： 查找给定集合内的任何字符。</li>
-<li>[^adgk]：查找给定集合外的任何字符。</li>
-<li>(red|blue|green)：查找任何指定的选项。</li>
-</ul>
-<h3 id="元字符"><a href="#元字符" class="headerlink" title="元字符"></a>元字符</h3><p>元字符（Metacharacter）是拥有特殊含义的字符：</p>
-<ul>
-<li>.：查找单个字符，除了换行和行结束符。</li>
-<li>\w：查找单词字符。</li>
-<li>\W：查找非单词字符。</li>
-<li>\d：查找数字。</li>
-<li>\D：查找非数字字符。</li>
-<li>\s：查找空白字符。</li>
-<li>\S：查找非空白字符。</li>
-<li>\b：匹配单词边界。</li>
-<li>\B：匹配非单词边界。</li>
-<li>\0：查找 NUL 字符。</li>
-</ul>
-<h3 id="量词"><a href="#量词" class="headerlink" title="量词"></a>量词</h3><ul>
-<li>n+ 匹配任何包含至少一个 n 的字符串。</li>
-<li>n* 匹配任何包含零个或多个 n 的字符串。</li>
-<li>n? 匹配任何包含零个或一个 n 的字符串。</li>
-<li>n{X} 匹配包含 X 个 n 的序列的字符串。</li>
-<li>n{X,Y} 匹配包含 X 或 Y 个 n 的序列的字符串。</li>
-<li>n{X,} 匹配包含至少 X 个 n 的序列的字符串。</li>
-<li>n$ 匹配任何结尾为 n 的字符串。</li>
-<li>^n 匹配任何开头为 n 的字符串。</li>
-<li>?=n 匹配任何其后紧接指定字符串 n 的字符串。</li>
-<li>?!n 匹配任何其后没有紧接指定字符串 n 的字符串。</li>
-</ul>
-<h3 id="RegExp对象的方法"><a href="#RegExp对象的方法" class="headerlink" title="RegExp对象的方法"></a>RegExp对象的方法</h3><p>regExp对象有3个方法：test()、exec()、compile()<br>test()方法检索字符串中的指定值。返回时true或false<br>exec()方法检索字符串中的指定值。返回值是被找到的值。如果没有发现匹配，则返回null<br>compile()方法用于改变RegExp。既可以改变检索模式，也可以添加或删除第二个参数</p>
-<h3 id="支持正则表达式的-String-对象的方法"><a href="#支持正则表达式的-String-对象的方法" class="headerlink" title="支持正则表达式的 String 对象的方法"></a>支持正则表达式的 String 对象的方法</h3><ul>
-<li>search 检索与正则表达式相匹配的值。</li>
-<li>match 找到一个或多个正则表达式的匹配。</li>
-<li>replace 替换与正则表达式匹配的子串。</li>
-<li>split 把字符串分割为字符串数组。</li>
-</ul>
+<p><strong>javaScript实现移动端拖拽</strong></p>
+<pre><code>var isdrag=false;   
+var NowLeft,disX;
+var NowTop,disY; 
+var oDiv2 = document.getElementById(&quot;gamecar&quot;);
+oDiv2.addEventListener(&apos;touchstart&apos;,thismousedown);  
+oDiv2.addEventListener(&apos;touchend&apos;,thismouseup);  
+oDiv2.addEventListener(&apos;touchmove&apos;,thismousemove);  
+function thismousedown(e){
+isdrag = true;   
+console.log(e);
+NowLeft = oDiv2.offsetLeft;  
+NowTop = oDiv2.offsetTop;   
+disX = e.touches[0].pageX;
+disY = e.touches[0].pageY;
+return false;
+}
+function thismousemove(e){   
+if(isdrag){
+   oDiv2.style.left = NowLeft + e.touches[0].pageX - disX + &apos;px&apos;; 
+   oDiv2.style.top = NowTop + e.touches[0].pageY - disY + &apos;px&apos;;
+   return false;   
+}   
+}   
+function thismouseup(){  
+isdrag = false;  
+};
+</code></pre><p><strong>jQuery实现鼠标拖拽效果</strong></p>
+<pre><code>//鼠标按下
+$(&quot;#gamecar&quot;).on(&quot;mousedown&quot;,function(ev){
+var ev = ev || window.event;
+var offsetX = ev.offsetX;
+var offsetY = ev.offsetY;
+//鼠标移动
+$(document).on(&quot;mousemove&quot;,function(ev){
+var ev = ev || window.event;
+var carLeft = ev.clientX - offsetX + &quot;px&quot;;
+var carTop = ev.clientY - offsetY + &quot;px&quot;;
+$(&quot;#gamecar&quot;).css({
+left: carLeft,
+top: carTop
+});
+});
+//鼠标移开
+$(document).on(&quot;mouseup&quot;,function(){
+//移除元素所有的事件处理器
+$(document).unbind();
+});
+return false;
+});
+</code></pre><h2 id="完整代码示范"><a href="#完整代码示范" class="headerlink" title="完整代码示范"></a>完整代码示范</h2><pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;UTF-8&quot;&gt;
+&lt;title&gt;&lt;/title&gt;
+&lt;style&gt;
+*{
+padding: 0;
+margin: 0;
+}
+#div1{
+width: 100px;
+height: 100px;
+background-color: red;
+position: absolute;
+left: 100px;
+top: 200px;
+border-radius: 50%;
+box-shadow: 0 0 2px 3px red;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div id=&quot;div1&quot;&gt;&lt;/div&gt;
+&lt;/body&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+var div1 = document.getElementById(&apos;div1&apos;);
 
+//鼠标按下
+div1.onmousedown = function(ev){
+console.log(&apos;鼠标按下了&apos;);
+var ev = ev || event;
+
+//获取鼠标距离元素左边和上边的距离
+//方式1:火狐旧版本不兼容
+//var offsetX = ev.offsetX;
+//var offsetY = ev.offsetY;
+//方式2
+var offsetX = ev.clientX - this.offsetLeft;
+var offsetY = ev.clientY - this.offsetTop;
+
+document.onmousemove = function(ev){
+
+var ev = ev || event;
+console.log(ev.clientX,ev.clientY);
+
+div1.style.left = ev.clientX - offsetX + &apos;px&apos;;
+div1.style.top = ev.clientY - offsetY + &apos;px&apos;;
+};
+
+//鼠标抬起，取消移动事件
+document.onmouseup = function(){
+document.onmouseup = document.onmousemove = null;
+};
+
+return false;
+};
+
+/*
+ 三步：
+ 1.元素onmousedown
+ 2.document.onmousemove
+ 3.documnet.onmouseup
+ **/
+&lt;/script&gt;
+&lt;/html&gt;
+</code></pre>
 	
 	
 	
@@ -493,9 +594,9 @@
 <div id="comments">
     <!-- 多说评论框 start -->
         <div class="ds-thread" 
-            data-thread-key="2016/10/10/reg/" 
-            data-url="http://ningbo00.top/2016/10/10/reg/"
-            data-title="正则表达式"></div>
+            data-thread-key="2016/11/10/js-and-jq-drag/" 
+            data-url="http://ningbo00.top/2016/11/10/js-and-jq-drag/"
+            data-title="javaScript和jQuery实现拖拽效果"></div>
     <!-- 多说评论框 end -->
 </div>
 
@@ -509,7 +610,7 @@
     
     <!-- Prev Nav -->
     
-        <a href="/2016/11/10/js-and-jq-drag/" id="post_nav-newer" class="prev-content">
+        <a href="/2016/12/10/f2e-websites/" id="post_nav-newer" class="prev-content">
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
                 <i class="material-icons">arrow_back</i>
             </button>
@@ -522,6 +623,14 @@
     <div class="section-spacer"></div>
 
     <!-- Next Nav -->
+    
+        <a href="/2016/10/10/reg/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
     
 </nav>
         </div>

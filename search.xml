@@ -4,6 +4,251 @@
   
     
     <entry>
+      <title><![CDATA[web前端建站与学习常用网站]]></title>
+      <url>http://ningbo00.top/2016/12/10/f2e-websites/</url>
+      <content type="html"><![CDATA[<h1 id="web前端建站与学习常用网站"><a href="#web前端建站与学习常用网站" class="headerlink" title="web前端建站与学习常用网站"></a>web前端建站与学习常用网站</h1><h2 id="HTML常用手册网站"><a href="#HTML常用手册网站" class="headerlink" title="HTML常用手册网站"></a>HTML常用手册网站</h2><p>html手册，Sublime常用插件，图书、博客</p>
+<p>HTML5标签在各浏览器兼容情况：<a href="http://www.html5accessibility.com/" target="_blank" rel="external">http://www.html5accessibility.com/</a></p>
+<p>前端知识体系：<a href="http://www.cnblogs.com/sb19871023/p/3894452.html" target="_blank" rel="external">http://www.cnblogs.com/sb19871023/p/3894452.html</a></p>
+<p>w3school在线教程：<a href="http://www.w3school.com.cn/" target="_blank" rel="external">http://www.w3school.com.cn/</a></p>
+<p>菜鸟教程：<a href="http://www.runoob.com/" target="_blank" rel="external">http://www.runoob.com/</a></p>
+<p>图灵程序设计丛书HTML5权威指南免费电子书：<a href="http://bestcbooks.com/B00H706BIG/" target="_blank" rel="external">http://bestcbooks.com/B00H706BIG/</a></p>
+<hr>
+<p>全栈开发必备的10款Sublime Text插件：<a href="http://www.php100.com/html/it/focus/2014/1128/7935.html" target="_blank" rel="external">http://www.php100.com/html/it/focus/2014/1128/7935.html</a></p>
+<p>Sublime Text插件官网：<a href="https://packagecontrol.io/" target="_blank" rel="external">https://packagecontrol.io/</a></p>
+<p>Sublime Text Emmet插件：<a href="http://docs.emmet.io/" target="_blank" rel="external">http://docs.emmet.io/</a></p>
+<hr>
+<h2 id="CSS工具网站"><a href="#CSS工具网站" class="headerlink" title="CSS工具网站"></a>CSS工具网站</h2><p>css3测试、计算工具</p>
+<p>CSS3标签在各浏览器兼容情况：<a href="http://www.html5accessibility.com/" target="_blank" rel="external">http://www.html5accessibility.com/</a></p>
+<p>CSS3动画手册：<a href="http://isux.tencent.com/css3/index.html?transition-property" target="_blank" rel="external">http://isux.tencent.com/css3/index.html?transition-property</a></p>
+<p>Animate.css官网：<a href="https://daneden.github.io/animate.css/" target="_blank" rel="external">https://daneden.github.io/animate.css/</a></p>
+<p>贝塞尔曲线绘制取值网站：<a href="http://cubic-bezier.com/?#.17,.67,.83,.67" target="_blank" rel="external">http://cubic-bezier.com/?#.17,.67,.83,.67</a></p>
+<p>px转em计算网站：<a href="http://pxtoem.com/" target="_blank" rel="external">http://pxtoem.com/</a></p>
+<p>雪碧图自动生成网站：<a href="http://www.spritecow.com/" target="_blank" rel="external">http://www.spritecow.com/</a></p>
+<hr>
+<h2 id="字体、艺术字引用网站集合："><a href="#字体、艺术字引用网站集合：" class="headerlink" title="字体、艺术字引用网站集合："></a>字体、艺术字引用网站集合：</h2><p>Handpicked字体：<a href="https://www.fontsquirrel.com/" target="_blank" rel="external">https://www.fontsquirrel.com/</a></p>
+<p>阿里妈妈webfont平台：<a href="http://www.iconfont.cn/webfont/?spm=a313x.7781069.0.0.f2EDD4#!/webfont/index" target="_blank" rel="external">http://www.iconfont.cn/webfont/?spm=a313x.7781069.0.0.f2EDD4#!/webfont/index</a></p>
+<p>谷歌字体（需墙）：<a href="https://www.google.com/fonts" target="_blank" rel="external">https://www.google.com/fonts</a></p>
+<p>阿里巴巴矢量图标库：<a href="http://www.iconfont.cn/" target="_blank" rel="external">http://www.iconfont.cn/</a></p>
+<p>适用Bootstrap图标网站：<a href="http://www.bootcss.com/p/font-awesome/#integration" target="_blank" rel="external">http://www.bootcss.com/p/font-awesome/#integration</a></p>
+<hr>
+<h2 id="JavaScript常用网站"><a href="#JavaScript常用网站" class="headerlink" title="JavaScript常用网站"></a>JavaScript常用网站</h2><p>jquery、轮播图、瀑布流框架、js深度学习</p>
+<p>jQuery中文网：<a href="http://jquery.cuishifeng.cn/index.html" target="_blank" rel="external">http://jquery.cuishifeng.cn/index.html</a></p>
+<p>jQuery效果库1：<a href="http://www.htmleaf.com/" target="_blank" rel="external">http://www.htmleaf.com/</a></p>
+<p>jQuery效果库2：<a href="http://www.jq22.com/" target="_blank" rel="external">http://www.jq22.com/</a></p>
+<p>轮播图框架Swiper中文网：<a href="http://www.swiper.com.cn/" target="_blank" rel="external">http://www.swiper.com.cn/</a></p>
+<p>瀑布流框架：<a href="http://masonry.desandro.com/" target="_blank" rel="external">http://masonry.desandro.com/</a></p>
+<p>Tween算法：<a href="http://www.cnblogs.com/bluedream2009/archive/2010/06/19/1760909.html" target="_blank" rel="external">http://www.cnblogs.com/bluedream2009/archive/2010/06/19/1760909.html</a></p>
+<p>移动端touch.js：<a href="http://blog.csdn.net/libin_1/article/details/50534611" target="_blank" rel="external">http://blog.csdn.net/libin_1/article/details/50534611</a></p>
+<h2 id="JavaScript深度学习"><a href="#JavaScript深度学习" class="headerlink" title="JavaScript深度学习"></a>JavaScript深度学习</h2><p>推荐javascript-in-one-pic </p>
+<p>js深度体系学习（js-in-one-pic）：<a href="https://github.com/coodict/javascript-in-one-pic/blob/master/README-zh.md" target="_blank" rel="external">https://github.com/coodict/javascript-in-one-pic/blob/master/README-zh.md</a></p>
+<p>图解javascipt上下文与作用域：<a href="http://www.108js.com/article/article1/10201.html?id=1092" target="_blank" rel="external">http://www.108js.com/article/article1/10201.html?id=1092</a></p>
+<p>js原型对象理解：<a href="http://blog.csdn.net/liwenqiang758/article/details/8190263" target="_blank" rel="external">http://blog.csdn.net/liwenqiang758/article/details/8190263</a></p>
+<p>巧用apply、call、bind：<a href="http://www.admin10000.com/document/6711.html" target="_blank" rel="external">http://www.admin10000.com/document/6711.html</a></p>
+<hr>
+<h2 id="PHP基础学习"><a href="#PHP基础学习" class="headerlink" title="PHP基础学习"></a>PHP基础学习</h2><p>php基础、json、ajax</p>
+<p>PHP手册：<a href="http://www.php.net/" target="_blank" rel="external">http://www.php.net/</a></p>
+<p>代码状态百科：<a href="http://baike.baidu.com/view/1311386.htm" target="_blank" rel="external">http://baike.baidu.com/view/1311386.htm</a></p>
+<p>json在线校验工具：<a href="http://www.kjson.com/" target="_blank" rel="external">http://www.kjson.com/</a></p>
+<p>URL编码/解码：<a href="http://tool.oschina.net/encode?type=4" target="_blank" rel="external">http://tool.oschina.net/encode?type=4</a></p>
+<hr>
+<h2 id="AnjularJS常用"><a href="#AnjularJS常用" class="headerlink" title="AnjularJS常用"></a>AnjularJS常用</h2><p>AnjularJS学习、工具</p>
+<p>AnjularJS菜鸟教程：<a href="http://www.runoob.com/angularjs/angularjs-tutorial.html" target="_blank" rel="external">http://www.runoob.com/angularjs/angularjs-tutorial.html</a></p>
+<p>AnjularJS API文档：<a href="https://angularjs.org/" target="_blank" rel="external">https://angularjs.org/</a></p>
+<p>AnjularJS源码下载/CDN服务：<a href="http://www.bootcdn.cn/angular.js/" target="_blank" rel="external">http://www.bootcdn.cn/angular.js/</a></p>
+<p>最适用工具WebStorm：<a href="http://www.jetbrains.com/webstorm/" target="_blank" rel="external">http://www.jetbrains.com/webstorm/</a></p>
+<p>WebStorm主题：<a href="https://github.com/daylerees/colour-schemes/tree/master/jetbrains" target="_blank" rel="external">https://github.com/daylerees/colour-schemes/tree/master/jetbrains</a></p>
+<p>WebStorm2016.2.3：<a href="http://www.wuleba.com/28503.html" target="_blank" rel="external">http://www.wuleba.com/28503.html</a></p>
+<hr>
+<h2 id="建站工具"><a href="#建站工具" class="headerlink" title="建站工具"></a>建站工具</h2><p>小工具，建站必备</p>
+<p>白噪音（雨声、咖啡店…）：<a href="http://soundrown.com/" target="_blank" rel="external">http://soundrown.com/</a></p>
+<p>在线压缩图片网站：<a href="https://tinypng.com/" target="_blank" rel="external">https://tinypng.com/</a></p>
+<p>无版权高清大图：<a href="http://www.ssyer.com/" target="_blank" rel="external">http://www.ssyer.com/</a></p>
+<p>Bootstrap中文网：<a href="http://www.bootcss.com/" target="_blank" rel="external">http://www.bootcss.com/</a></p>
+<p>SVN团队必备：<a href="https://tortoisesvn.net/downloads.html" target="_blank" rel="external">https://tortoisesvn.net/downloads.html</a></p>
+<p>SVN源代码托管中心：<a href="http://svnchina.com/" target="_blank" rel="external">http://svnchina.com/</a></p>
+<p>GitHub个人博客建站Hexo：<a href="https://hexo.io/" target="_blank" rel="external">https://hexo.io/</a></p>
+<p>付费个人建站：<a href="https://www.strikingly.com/" target="_blank" rel="external">https://www.strikingly.com/</a></p>
+<p>Markdown语法说明：<a href="http://wowubuntu.com/markdown/" target="_blank" rel="external">http://wowubuntu.com/markdown/</a></p>
+<p>以上网站都是自己在学习和网站建设中常用的网站，一个好的工具往往可以事半功倍，在日后学习中会继续更新。<br>个人在学习html、css、js、jq、php、微信开发、AnjularJS的笔记与总结，优化无止境：<a href="https://github.com/NalvyBoo/HTML5" target="_blank" rel="external">https://github.com/NalvyBoo/HTML5</a></p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[javaScript和jQuery实现拖拽效果]]></title>
+      <url>http://ningbo00.top/2016/11/10/js-and-jq-drag/</url>
+      <content type="html"><![CDATA[<h1 id="javaScript实现拖拽效果"><a href="#javaScript实现拖拽效果" class="headerlink" title="javaScript实现拖拽效果"></a>javaScript实现拖拽效果</h1><p>鼠标按下移动或者手指拖动对象，对象随之移动，鼠标放开或者手指离开屏幕，对象停止移动。</p>
+<h2 id="Event对象介绍"><a href="#Event对象介绍" class="headerlink" title="Event对象介绍"></a>Event对象介绍</h2><p>Event对象代表事件的状态，比如事件在其中发生的元素、键盘按键的状态、鼠标的位置、鼠标按钮的状态。</p>
+<p>事件通常与函数结合使用，函数不会在事件发生前被执行。</p>
+<h3 id="事件句柄"><a href="#事件句柄" class="headerlink" title="事件句柄"></a>事件句柄</h3><ul>
+<li>onmousedown 鼠标按钮被按下</li>
+<li>onmousemove 鼠标被移动</li>
+<li>onmouseup 鼠标从某元素移开</li>
+</ul>
+<h3 id="鼠标属性"><a href="#鼠标属性" class="headerlink" title="鼠标属性"></a>鼠标属性</h3><ul>
+<li>clientX 返回返回当事件被触发时鼠标指针向对于浏览器页面（或客户区）的水平坐标。</li>
+<li>注释：2 级 DOM 没有提供把窗口坐标转换为文档坐标的标准方法。在 IE 以外的浏览器，使用 window.pageXOffset 和 window.pageYOffset 即可。</li>
+<li>clientY 返回当事件被触发时鼠标指针向对于浏览器页面（客户区）的垂直坐标。</li>
+<li>注释：注意，该坐标不考虑文档的滚动。如果事件发生在窗口的顶部，无论文档滚了多远，clientY 的值都是 0。但是，2 级 DOM 没有提供把窗口坐标转换为文档坐标的标准方法。在 IE 以外的浏览器，使用 window.pageXOffset 和 window.pageYOffset 即可</li>
+<li>screenX 返回事件发生时鼠标指针相对于屏幕的水平坐标。</li>
+<li>screenY 返回事件发生时鼠标指针相对于屏幕的垂直坐标。</li>
+<li>offsetX,offsetY 发生事件的地点在事件源元素的坐标系统中的 x 坐标和 y 坐标。</li>
+<li>offsetLeft 返回当前元素的相对水平偏移位置的偏移容器。</li>
+<li>offsetTop 返回当前元素的相对垂直偏移位置的偏移容器</li>
+<li>offsetHeight 返回，任何一个元素的高度包括边框和填充，但不是边距</li>
+<li>offsetWidth 返回元素的宽度，包括边框和填充，但不是边距</li>
+<li>offsetParent 返回元素的偏移容器</li>
+<li>jQuery event.pageX 返回相对于文档左边缘的鼠标位置</li>
+<li>jQuery event.pageY 返回相对于文档上边缘的鼠标位</li>
+</ul>
+<h2 id="javaScript实现"><a href="#javaScript实现" class="headerlink" title="javaScript实现"></a>javaScript实现</h2><ul>
+<li>onmousedown</li>
+<li>document.onmousemove</li>
+<li><p>document.onmouseup</p>
+<p>  //鼠标按下<br>  var div1 = document.getElementById(“div1”);<br>  div1.onmousedown = function(ev){</p>
+<pre><code>var ev = ev || event;
+//获取鼠标距离元素左边和上边的距离
+//方式1：火狐旧版本不支持
+//var offsetX = ev.offsetX;
+//var offsetY = ev.offsetY;
+//方式2
+var offsetX = ev.clientX - ev.offsetLeft;
+var offsetY = ev.clientY - ev.offsetTop;
+
+//鼠标按下
+document.onmousemove = function(ev){
+    var ev = ev || event;
+    div1.style.left = ev.clientX - this.offsetX + &quot;px&quot;;
+    div1.style.top = ev.clientY - this.offsetY + &quot;px&quot;;
+};
+//鼠标抬起，取消移动事件
+document.onmouseup = function(){
+    document.onmouseup = document.onmousemove = null;
+}；
+
+return false;
+</code></pre><p>  };</p>
+</li>
+</ul>
+<p><strong>javaScript实现移动端拖拽</strong></p>
+<pre><code>var isdrag=false;   
+var NowLeft,disX;
+var NowTop,disY; 
+var oDiv2 = document.getElementById(&quot;gamecar&quot;);
+oDiv2.addEventListener(&apos;touchstart&apos;,thismousedown);  
+oDiv2.addEventListener(&apos;touchend&apos;,thismouseup);  
+oDiv2.addEventListener(&apos;touchmove&apos;,thismousemove);  
+function thismousedown(e){
+isdrag = true;   
+console.log(e);
+NowLeft = oDiv2.offsetLeft;  
+NowTop = oDiv2.offsetTop;   
+disX = e.touches[0].pageX;
+disY = e.touches[0].pageY;
+return false;
+}
+function thismousemove(e){   
+if(isdrag){
+   oDiv2.style.left = NowLeft + e.touches[0].pageX - disX + &apos;px&apos;; 
+   oDiv2.style.top = NowTop + e.touches[0].pageY - disY + &apos;px&apos;;
+   return false;   
+}   
+}   
+function thismouseup(){  
+isdrag = false;  
+};
+</code></pre><p><strong>jQuery实现鼠标拖拽效果</strong></p>
+<pre><code>//鼠标按下
+$(&quot;#gamecar&quot;).on(&quot;mousedown&quot;,function(ev){
+var ev = ev || window.event;
+var offsetX = ev.offsetX;
+var offsetY = ev.offsetY;
+//鼠标移动
+$(document).on(&quot;mousemove&quot;,function(ev){
+var ev = ev || window.event;
+var carLeft = ev.clientX - offsetX + &quot;px&quot;;
+var carTop = ev.clientY - offsetY + &quot;px&quot;;
+$(&quot;#gamecar&quot;).css({
+left: carLeft,
+top: carTop
+});
+});
+//鼠标移开
+$(document).on(&quot;mouseup&quot;,function(){
+//移除元素所有的事件处理器
+$(document).unbind();
+});
+return false;
+});
+</code></pre><h2 id="完整代码示范"><a href="#完整代码示范" class="headerlink" title="完整代码示范"></a>完整代码示范</h2><pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;UTF-8&quot;&gt;
+&lt;title&gt;&lt;/title&gt;
+&lt;style&gt;
+*{
+padding: 0;
+margin: 0;
+}
+#div1{
+width: 100px;
+height: 100px;
+background-color: red;
+position: absolute;
+left: 100px;
+top: 200px;
+border-radius: 50%;
+box-shadow: 0 0 2px 3px red;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div id=&quot;div1&quot;&gt;&lt;/div&gt;
+&lt;/body&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+var div1 = document.getElementById(&apos;div1&apos;);
+
+//鼠标按下
+div1.onmousedown = function(ev){
+console.log(&apos;鼠标按下了&apos;);
+var ev = ev || event;
+
+//获取鼠标距离元素左边和上边的距离
+//方式1:火狐旧版本不兼容
+//var offsetX = ev.offsetX;
+//var offsetY = ev.offsetY;
+//方式2
+var offsetX = ev.clientX - this.offsetLeft;
+var offsetY = ev.clientY - this.offsetTop;
+
+document.onmousemove = function(ev){
+
+var ev = ev || event;
+console.log(ev.clientX,ev.clientY);
+
+div1.style.left = ev.clientX - offsetX + &apos;px&apos;;
+div1.style.top = ev.clientY - offsetY + &apos;px&apos;;
+};
+
+//鼠标抬起，取消移动事件
+document.onmouseup = function(){
+document.onmouseup = document.onmousemove = null;
+};
+
+return false;
+};
+
+/*
+ 三步：
+ 1.元素onmousedown
+ 2.document.onmousemove
+ 3.documnet.onmouseup
+ **/
+&lt;/script&gt;
+&lt;/html&gt;
+</code></pre>]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[正则表达式]]></title>
       <url>http://ningbo00.top/2016/10/10/reg/</url>
       <content type="html"><![CDATA[<h1 id="正则表达式简介"><a href="#正则表达式简介" class="headerlink" title="正则表达式简介"></a>正则表达式简介</h1><h2 id="正则表达式的目的"><a href="#正则表达式的目的" class="headerlink" title="正则表达式的目的"></a>正则表达式的目的</h2><ol>
