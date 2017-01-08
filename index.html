@@ -235,20 +235,6 @@
 
     <!-- Search -->
 	
-	<!-- Google -->
-	<div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable" method="post" action="">
-		<label id="search-label" class="mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-color--accent mdl-shadow--4dp" for="search">
-			<i class="material-icons mdl-color-text--white" role="presentation">search</i>
-		</label>
-
-		<form id="search-form" method="get" action="//google.com/search" accept-charset="UTF-8" class="mdl-textfield__expandable-holder" target="_blank">
-			<input class="mdl-textfield__input search-input" type="search" name="q" id="search" placeholder="">
-			<label id="search-form-label" class="mdl-textfield__label" for="search"></label>
-			
-			<input type="hidden" name="sitesearch" value="http://ningbo00.top">
-		</form>
-	</div>
-
 
 
 
@@ -284,6 +270,15 @@
             <span class="visuallyhidden">show menu</span>
         </button>
         <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="menubtn">
+            
+            <!-- All Site UV -->
+            <a class="index_share-link" href="#">
+                <li class="mdl-menu__item mdl-js-ripple-effect">
+                    <span id="busuanzi_container_site_uv">
+                        <span id="busuanzi_value_site_uv"></span>&nbsp;浏览量
+                    </span>
+                </li>
+            </a>
             
 
             
@@ -396,6 +391,12 @@
                 
             </span>
             
+            
+                <!-- Comment Number -->
+                &nbsp;|&nbsp;
+                <span class="post_entry-comment" >
+                        <span class="ds-thread-count" data-thread-key="2016/10/10/reg/" data-count-type="comments"></span>
+                </span>
             
             
             <!-- Post Views -->
@@ -512,6 +513,18 @@
     </li>
 
     <!-- Categories  -->
+    
+    <li class="dropdown">
+        <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+            <i class="material-icons sidebar-material-icons">chrome_reader_mode</i>
+             分类
+            <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+            <li>
+            
+        </ul>
+    </li>
     
 
     <!-- Divider -->
@@ -710,7 +723,24 @@ It will not impact the appearance and can give developers a lot of support :)
 
 
 
+    <!-- Busuanzi -->
+    <script src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
+
+
+    <!-- 多说公共 js 代码 start -->
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:"Ningbo&#39;Blog"};
+        (function() {
+            var ds = document.createElement('script');
+            ds.type = 'text/javascript';ds.async = true;
+            ds.src = 'https://static.duoshuo.com/embed.js';
+            ds.charset = 'UTF-8';
+            (document.getElementsByTagName('head')[0] 
+             || document.getElementsByTagName('body')[0]).appendChild(ds);
+        })();
+    </script>
+    <!-- 多说公共 js 代码 end -->
 
 
 

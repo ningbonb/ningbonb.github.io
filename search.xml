@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+    
+    <entry>
+      <title><![CDATA[正则表达式]]></title>
+      <url>http://ningbo00.top/2016/10/10/reg/</url>
+      <content type="html"><![CDATA[<h1 id="正则表达式简介"><a href="#正则表达式简介" class="headerlink" title="正则表达式简介"></a>正则表达式简介</h1><h2 id="正则表达式的目的"><a href="#正则表达式的目的" class="headerlink" title="正则表达式的目的"></a>正则表达式的目的</h2><ol>
+<li>给定的字符串是否符合正则表达式的过滤逻辑（匹配）</li>
+<li>可以通过正则表达式，从字符串中获取我们想要的特定部分</li>
+</ol>
+<h2 id="正则表达式的特点"><a href="#正则表达式的特点" class="headerlink" title="正则表达式的特点"></a>正则表达式的特点</h2><ol>
+<li>灵活性、逻辑性和功能性非常的强</li>
+<li>可以迅速地用极简的方式达到字符串的复杂控制</li>
+</ol>
+<h2 id="JavaScript-RegExp对象"><a href="#JavaScript-RegExp对象" class="headerlink" title="JavaScript RegExp对象"></a>JavaScript RegExp对象</h2><p>RegExp对象用于规定在文本中检索的内容<br>当检索某个文件时，可以用RegExp这种模式来描述要检索的内容<br>复杂的模式可用于解析、格式检查、替换等等</p>
+<hr>
+<h3 id="JavaScript中正则表达式的声明方式"><a href="#JavaScript中正则表达式的声明方式" class="headerlink" title="JavaScript中正则表达式的声明方式"></a>JavaScript中正则表达式的声明方式</h3><p>创建RegExp对象的语法</p>
+<pre><code>var reg = new RegExp(参数1，参数2)
+</code></pre><ul>
+<li>参数1：正则公式（匹配原则）也可以是要匹配的字符串</li>
+<li>参数2：修饰符，可以省略<ul>
+<li>常用修饰符：i:忽略大小写 g:全局匹配 m:执行多行匹配(结合^ $使用)</li>
+</ul>
+</li>
+</ul>
+<h3 id="直接量语法"><a href="#直接量语法" class="headerlink" title="直接量语法"></a>直接量语法</h3><pre><code>var reg3 = /参数1/修饰符；
+</code></pre><ul>
+<li>参数不能写成字符串</li>
+<li>参数1：匹配原则</li>
+<li>参数2：可选，修饰符（i g m）</li>
+</ul>
+<h3 id="方括号"><a href="#方括号" class="headerlink" title="方括号"></a>方括号</h3><ul>
+<li>[abc]：查找方括号之间的任何字符。</li>
+<li>[^abc]：查找任何不在方括号之间的字符。</li>
+<li>[0-9]：查找任何从 0 至 9 的数字。</li>
+<li>[a-z]：查找任何从小写 a 到小写 z 的字符。</li>
+<li>[A-Z]：查找任何从大写 A 到大写 Z 的字符。</li>
+<li>[A-z]：查找任何从大写 A 到小写 z 的字符。</li>
+<li>[adgk]： 查找给定集合内的任何字符。</li>
+<li>[^adgk]：查找给定集合外的任何字符。</li>
+<li>(red|blue|green)：查找任何指定的选项。</li>
+</ul>
+<h3 id="元字符"><a href="#元字符" class="headerlink" title="元字符"></a>元字符</h3><p>元字符（Metacharacter）是拥有特殊含义的字符：</p>
+<ul>
+<li>.：查找单个字符，除了换行和行结束符。</li>
+<li>\w：查找单词字符。</li>
+<li>\W：查找非单词字符。</li>
+<li>\d：查找数字。</li>
+<li>\D：查找非数字字符。</li>
+<li>\s：查找空白字符。</li>
+<li>\S：查找非空白字符。</li>
+<li>\b：匹配单词边界。</li>
+<li>\B：匹配非单词边界。</li>
+<li>\0：查找 NUL 字符。</li>
+</ul>
+<h3 id="量词"><a href="#量词" class="headerlink" title="量词"></a>量词</h3><ul>
+<li>n+ 匹配任何包含至少一个 n 的字符串。</li>
+<li>n* 匹配任何包含零个或多个 n 的字符串。</li>
+<li>n? 匹配任何包含零个或一个 n 的字符串。</li>
+<li>n{X} 匹配包含 X 个 n 的序列的字符串。</li>
+<li>n{X,Y} 匹配包含 X 或 Y 个 n 的序列的字符串。</li>
+<li>n{X,} 匹配包含至少 X 个 n 的序列的字符串。</li>
+<li>n$ 匹配任何结尾为 n 的字符串。</li>
+<li>^n 匹配任何开头为 n 的字符串。</li>
+<li>?=n 匹配任何其后紧接指定字符串 n 的字符串。</li>
+<li>?!n 匹配任何其后没有紧接指定字符串 n 的字符串。</li>
+</ul>
+<h3 id="RegExp对象的方法"><a href="#RegExp对象的方法" class="headerlink" title="RegExp对象的方法"></a>RegExp对象的方法</h3><p>regExp对象有3个方法：test()、exec()、compile()<br>test()方法检索字符串中的指定值。返回时true或false<br>exec()方法检索字符串中的指定值。返回值是被找到的值。如果没有发现匹配，则返回null<br>compile()方法用于改变RegExp。既可以改变检索模式，也可以添加或删除第二个参数</p>
+<h3 id="支持正则表达式的-String-对象的方法"><a href="#支持正则表达式的-String-对象的方法" class="headerlink" title="支持正则表达式的 String 对象的方法"></a>支持正则表达式的 String 对象的方法</h3><ul>
+<li>search 检索与正则表达式相匹配的值。</li>
+<li>match 找到一个或多个正则表达式的匹配。</li>
+<li>replace 替换与正则表达式匹配的子串。</li>
+<li>split 把字符串分割为字符串数组。</li>
+</ul>
+]]></content>
+    </entry>
+    
+  
+  
+</search>
