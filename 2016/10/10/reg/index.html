@@ -10,7 +10,7 @@
     <!-- Title -->
     
     <title>
-        归档: 2017 | Hexo
+        正则表达式 | Hexo
     </title>
     
     <!-- Favicons -->
@@ -46,7 +46,7 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://ningbo00.top">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="归档: 2017 | Hexo">
+    <meta property="og:title" content="正则表达式 | Hexo">
     <meta property="og:description" content="ningbo&#39;blog">
     
      <!--[if lte IE 9]>
@@ -200,92 +200,281 @@
                 </button>
 				
 				
-                <!-- Index Module -->
-<div class="material-index mdl-grid">
-	
-    <div class="locate-thumbnail-symbol"></div>
+                <!-- Post TOC -->
+
     
-    
+	<!-- Back Button -->
+<!--
+	<div class="material-back" id="backhome-div" tabindex="0">
+		<a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" href="#" onclick="window.history.back();return false;" target="_self" role="button" data-upgraded=",MaterialButton,MaterialRipple">
+			<i class="material-icons" role="presentation">arrow_back</i>
+			<span class="mdl-button__ripple-container">
+				<span class="mdl-ripple"></span>
+			</span>
+		</a>
+	</div>			
+-->
+	<!-- Left aligned menu below button -->
+	<button id="post-toc-trigger-btn"
+			class="mdl-button mdl-js-button mdl-button--icon">
+	  <i class="material-icons">format_list_numbered</i>
+	</button>
+
+	<ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect"
+		for="post-toc-trigger-btn">
+			
+			<ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#正则表达式简介"><span class="post-toc-number">1.</span> <span class="post-toc-text">正则表达式简介</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#正则表达式的目的"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">正则表达式的目的</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#正则表达式的特点"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">正则表达式的特点</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#JavaScript-RegExp对象"><span class="post-toc-number">1.3.</span> <span class="post-toc-text">JavaScript RegExp对象</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#JavaScript中正则表达式的声明方式"><span class="post-toc-number">1.3.1.</span> <span class="post-toc-text">JavaScript中正则表达式的声明方式</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#直接量语法"><span class="post-toc-number">1.3.2.</span> <span class="post-toc-text">直接量语法</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#方括号"><span class="post-toc-number">1.3.3.</span> <span class="post-toc-text">方括号</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#元字符"><span class="post-toc-number">1.3.4.</span> <span class="post-toc-text">元字符</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#量词"><span class="post-toc-number">1.3.5.</span> <span class="post-toc-text">量词</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#RegExp对象的方法"><span class="post-toc-number">1.3.6.</span> <span class="post-toc-text">RegExp对象的方法</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#支持正则表达式的-String-对象的方法"><span class="post-toc-number">1.3.7.</span> <span class="post-toc-text">支持正则表达式的 String 对象的方法</span></a></li></ol></li></ol></li></ol>
 		
-			<!-- Paradox Thumbnail -->
-        	<div class="post_entry-module mdl-card mdl-cell mdl-cell--12-col fade out">
-    
-    <!-- Post Thumbnail -->
+<!--			<li class="mdl-menu__item">Some Action</li>-->
+	</ul>
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+		
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+	<!-- Paradox Post Header -->
 	
 		
 			<!-- Random Thumbnail -->
 			<div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-		
-	
-				
-		<!-- Post Title -->
-		<p class="article-headline-p"><a href="/2017/01/06/hello-world/">Hello World</a></p>
-	</div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            Welcome to Hexo
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2017/01/06/hello-world/" target="_self">继续阅读</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.png" width="44px" height="44px" alt="Ning Bo's avatar">
-            </div>
-            <div>
-                <strong>Ning Bo</strong>
-                <span>1月 06, 2017</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-            <!-- Category -->
-            <span class="post_entry-category">
-                
-            </span>
-            
-            
-            
-            <!-- Post Views -->
-            <span class="post_entry-views">
-                
-            </span>
-        </div>
-    </div>
-            
-</div>
-
-		
-		
-    
-    
-	
-		<script>
+				<script>
     
     var randomNum;
+    randomNum = Math.floor(Math.random() * 19 + 1);
     
-    var locatePost = $(".locate-thumbnail-symbol").next();
-    for(var i=0; i < 10; i++){
-        
-        randomNum = Math.floor(Math.random() * 19 + 1);
-        
-        locatePost.children(".post_thumbnail-random").attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children(".post_thumbnail-random").css('background-image', 'url(' + '/img/random/material-' + randomNum + '.png' + ')')
-        
-        locatePost = locatePost.next();
-    }
+    $(".post_thumbnail-random").css('background-image', 'url(' + '/img/random/material-' + randomNum + '.png' + ')');
     
 </script>
 
+		
+	
+        <p class="article-headline-p">
+            正则表达式
+        </p>
+    </div>
+
 	
 
+				
+				
+					<!-- Paradox Post Info -->
+					<div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>Ning Bo</strong>
+        <span>10月 10, 2016</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+<!--
+    <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+        <i class="material-icons" role="presentation">favorite</i>
+        <span class="visuallyhidden">favorites</span>
+    </button>
+-->
+
+    <!-- Qrcode -->
+    
+
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/regExp-正则表达式/">regExp 正则表达式</a>
+    </ul>
+    
+
+    <!-- Share -->
+    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+
+    
+
+    
+
+    <!-- Share Weibo -->
+    
+    <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=正则表达式&url=http://ningbo00.top//2016/10/10/reg/index.html&pic=&searchPic=false&style=simple" target="_blank">
+        <li class="mdl-menu__item">
+            分享到微博
+        </li>
+    </a>
+    
+
+    <!-- Share Twitter -->
+    
+    <a class="post_share-link" href="https://twitter.com/intent/tweet?text=正则表达式&url=http://ningbo00.top//2016/10/10/reg/index.html&via=Ning Bo" target="_blank">
+        <li class="mdl-menu__item">
+            分享到 Twitter
+        </li>
+    </a>
+    
+
+    <!-- Share Facebook -->
+    
+    <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://ningbo00.top//2016/10/10/reg/index.html" target="_blank">
+        <li class="mdl-menu__item">
+            分享到 Facebook
+        </li>
+    </a>
+    
+
+    <!-- Share Google+ -->
+    
+    <a class="post_share-link" href="https://plus.google.com/share?url=http://ningbo00.top//2016/10/10/reg/index.html" target="_blank">
+        <li class="mdl-menu__item">
+            分享到 Google+
+        </li>
+    </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
 </div>
+
+				
+
+                <!-- Post Content -->
+                <div id="post-content" class="markdown-Github mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+	
+		<h1 id="正则表达式简介"><a href="#正则表达式简介" class="headerlink" title="正则表达式简介"></a>正则表达式简介</h1><h2 id="正则表达式的目的"><a href="#正则表达式的目的" class="headerlink" title="正则表达式的目的"></a>正则表达式的目的</h2><ol>
+<li>给定的字符串是否符合正则表达式的过滤逻辑（匹配）</li>
+<li>可以通过正则表达式，从字符串中获取我们想要的特定部分</li>
+</ol>
+<h2 id="正则表达式的特点"><a href="#正则表达式的特点" class="headerlink" title="正则表达式的特点"></a>正则表达式的特点</h2><ol>
+<li>灵活性、逻辑性和功能性非常的强</li>
+<li>可以迅速地用极简的方式达到字符串的复杂控制</li>
+</ol>
+<h2 id="JavaScript-RegExp对象"><a href="#JavaScript-RegExp对象" class="headerlink" title="JavaScript RegExp对象"></a>JavaScript RegExp对象</h2><p>RegExp对象用于规定在文本中检索的内容<br>当检索某个文件时，可以用RegExp这种模式来描述要检索的内容<br>复杂的模式可用于解析、格式检查、替换等等</p>
+<hr>
+<h3 id="JavaScript中正则表达式的声明方式"><a href="#JavaScript中正则表达式的声明方式" class="headerlink" title="JavaScript中正则表达式的声明方式"></a>JavaScript中正则表达式的声明方式</h3><p>创建RegExp对象的语法</p>
+<pre><code>var reg = new RegExp(参数1，参数2)
+</code></pre><ul>
+<li>参数1：正则公式（匹配原则）也可以是要匹配的字符串</li>
+<li>参数2：修饰符，可以省略<ul>
+<li>常用修饰符：i:忽略大小写 g:全局匹配 m:执行多行匹配(结合^ $使用)</li>
+</ul>
+</li>
+</ul>
+<h3 id="直接量语法"><a href="#直接量语法" class="headerlink" title="直接量语法"></a>直接量语法</h3><pre><code>var reg3 = /参数1/修饰符；
+</code></pre><ul>
+<li>参数不能写成字符串</li>
+<li>参数1：匹配原则</li>
+<li>参数2：可选，修饰符（i g m）</li>
+</ul>
+<h3 id="方括号"><a href="#方括号" class="headerlink" title="方括号"></a>方括号</h3><ul>
+<li>[abc]：查找方括号之间的任何字符。</li>
+<li>[^abc]：查找任何不在方括号之间的字符。</li>
+<li>[0-9]：查找任何从 0 至 9 的数字。</li>
+<li>[a-z]：查找任何从小写 a 到小写 z 的字符。</li>
+<li>[A-Z]：查找任何从大写 A 到大写 Z 的字符。</li>
+<li>[A-z]：查找任何从大写 A 到小写 z 的字符。</li>
+<li>[adgk]： 查找给定集合内的任何字符。</li>
+<li>[^adgk]：查找给定集合外的任何字符。</li>
+<li>(red|blue|green)：查找任何指定的选项。</li>
+</ul>
+<h3 id="元字符"><a href="#元字符" class="headerlink" title="元字符"></a>元字符</h3><p>元字符（Metacharacter）是拥有特殊含义的字符：</p>
+<ul>
+<li>.：查找单个字符，除了换行和行结束符。</li>
+<li>\w：查找单词字符。</li>
+<li>\W：查找非单词字符。</li>
+<li>\d：查找数字。</li>
+<li>\D：查找非数字字符。</li>
+<li>\s：查找空白字符。</li>
+<li>\S：查找非空白字符。</li>
+<li>\b：匹配单词边界。</li>
+<li>\B：匹配非单词边界。</li>
+<li>\0：查找 NUL 字符。</li>
+</ul>
+<h3 id="量词"><a href="#量词" class="headerlink" title="量词"></a>量词</h3><ul>
+<li>n+ 匹配任何包含至少一个 n 的字符串。</li>
+<li>n* 匹配任何包含零个或多个 n 的字符串。</li>
+<li>n? 匹配任何包含零个或一个 n 的字符串。</li>
+<li>n{X} 匹配包含 X 个 n 的序列的字符串。</li>
+<li>n{X,Y} 匹配包含 X 或 Y 个 n 的序列的字符串。</li>
+<li>n{X,} 匹配包含至少 X 个 n 的序列的字符串。</li>
+<li>n$ 匹配任何结尾为 n 的字符串。</li>
+<li>^n 匹配任何开头为 n 的字符串。</li>
+<li>?=n 匹配任何其后紧接指定字符串 n 的字符串。</li>
+<li>?!n 匹配任何其后没有紧接指定字符串 n 的字符串。</li>
+</ul>
+<h3 id="RegExp对象的方法"><a href="#RegExp对象的方法" class="headerlink" title="RegExp对象的方法"></a>RegExp对象的方法</h3><p>regExp对象有3个方法：test()、exec()、compile()<br>test()方法检索字符串中的指定值。返回时true或false<br>exec()方法检索字符串中的指定值。返回值是被找到的值。如果没有发现匹配，则返回null<br>compile()方法用于改变RegExp。既可以改变检索模式，也可以添加或删除第二个参数</p>
+<h3 id="支持正则表达式的-String-对象的方法"><a href="#支持正则表达式的-String-对象的方法" class="headerlink" title="支持正则表达式的 String 对象的方法"></a>支持正则表达式的 String 对象的方法</h3><ul>
+<li>search 检索与正则表达式相匹配的值。</li>
+<li>match 找到一个或多个正则表达式的匹配。</li>
+<li>replace 替换与正则表达式匹配的子串。</li>
+<li>split 把字符串分割为字符串数组。</li>
+</ul>
+
+	
+	
+	
+	
+</div>
+				
+				
+
+                <!-- Post Comments -->
+                
+                    
+
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    
+    <!-- Prev Nav -->
+    
+        <a href="/2017/01/06/hello-world/" id="post_nav-newer" class="prev-content">
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_back</i>
+            </button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            新篇
+        </a>
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+</nav>
+        </div>
+    </div>
 
 				
 				
