@@ -1,12 +1,379 @@
-<?xml version="1.0" encoding="utf-8"?>
-<search>
-  
-  
+<!DOCTYPE html>
+<html>
+    <head>
+    <!--
+        © Material Theme 
+        https://github.com/viosey/hexo-theme-material
+        Version: 1.2.5
+    -->
     
-    <entry>
-      <title><![CDATA[CSS3 鲜为人知的属性]]></title>
-      <url>http://ningbo00.top/2017/02/03/CSS3/</url>
-      <content type="html"><![CDATA[<h1 id="CSS3-鲜为人知的属性"><a href="#CSS3-鲜为人知的属性" class="headerlink" title="CSS3 鲜为人知的属性"></a>CSS3 鲜为人知的属性</h1><h2 id="webkit-tap-highlight-color"><a href="#webkit-tap-highlight-color" class="headerlink" title="-webkit-tap-highlight-color"></a>-webkit-tap-highlight-color</h2><p>这个属性只用于iOS (iPhone和iPad)。当你点击一个链接或者通过Javascript定义的可点击元素的时候，它就会出现一个半透明的灰色背景。要重设这个表现，你可以设置-webkit-tap-highlight-color为任何颜色。<br>想要禁用这个高亮，设置颜色的alpha值为0即可。</p>
+    <!-- Title -->
+    
+    <title>
+        CSS3 鲜为人知的属性 | NingBo&#39;Blog
+    </title>
+    
+    <!-- Favicons -->
+    <link rel="icon shortcut" type="image/ico" href="/img/favicon.png">
+    <link rel="icon" sizes="192x192" href="/img/favicon.png">
+    <link rel="apple-touch-icon" href="/img/favicon.png">
+    
+    <!-- Meta & INfo -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0097A7">
+    <meta name="author" content="NingBo">
+    <meta name="description" content="宁勃的博客">
+    <meta name="keywords" content="宁勃,希伯来没有雨,博客,前端">
+    
+    <!--iOS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-title" content="Title">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="480">
+    
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="NingBo&#39;Blog">
+    
+    <!-- The Open Graph protocol -->
+    <meta property="og:url" content="http://ningbo00.top">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="CSS3 鲜为人知的属性 | NingBo&#39;Blog">
+    <meta property="og:description" content="宁勃的博客">
+    
+     <!--[if lte IE 9]>
+        <link rel="stylesheet" href="/css/ie-blocker.css">
+        
+        
+            <script src="/js/ie-blocker.zhCN.js"></script>
+        
+    <![endif]-->
+    
+    <!-- Import CSS -->
+    <link rel="stylesheet" href="/css/material.min.css">
+    <link rel="stylesheet" href="/css/style.min.css">
+    <!-- Config CSS -->
+
+
+<!-- Other Styles -->
+<style>
+	body, html{
+		font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+	}
+	
+    a{
+        color: #00838F
+    }
+    
+    .mdl-card__media,
+    #search-label,
+    #search-form-label:after,
+    #scheme-Paradox .hot_tags-count,
+    #scheme-Paradox .sidebar_archives-count,
+    #scheme-Paradox .sidebar-colored .sidebar-header,
+    #scheme-Paradox .sidebar-colored .sidebar-badge{
+        background-color: #0097A7 !important
+    }
+    
+	/* Sidebar User Drop Down Menu Text Color */
+	#scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:hover,
+    #scheme-Paradox .sidebar-colored .sidebar-nav>.dropdown>.dropdown-menu>li>a:focus{
+        color: #0097A7 !important
+    }
+    
+    #post_entry-right-info,
+    .sidebar-colored .sidebar-nav li:hover > a,
+    .sidebar-colored .sidebar-nav li:hover > a i,
+    .sidebar-colored .sidebar-nav li > a:hover,
+    .sidebar-colored .sidebar-nav li > a:hover i,
+    .sidebar-colored .sidebar-nav li > a:focus i,
+    .sidebar-colored .sidebar-nav > .open > a,
+    .sidebar-colored .sidebar-nav > .open > a:hover,
+    .sidebar-colored .sidebar-nav > .open > a:focus,
+    #ds-reset #ds-ctx .ds-ctx-entry .ds-ctx-head a{
+        color: #0097A7 !important
+    }
+    
+    .toTop{
+        background: #757575 !important
+    }
+		
+	.material-layout .material-post>.material-nav,
+	.material-layout .material-index>.material-nav,
+	.material-nav a{
+		color: #757575;
+	}
+		
+	#scheme-Paradox .MD-burger-layer {
+		background-color: #757575;
+	}
+
+	#scheme-Paradox #post-toc-trigger-btn{
+		color: #757575;
+	}
+	
+	.post-toc a:hover{
+		color: #00838F;
+		text-decoration: underline;
+	}
+</style>
+
+
+<!-- Theme Background Related-->
+
+    <style>
+        body{
+            background-color: #F5F5F5
+        }
+		
+		/* blog_info bottom background */
+        #scheme-Paradox .material-layout .something-else .mdl-card__supporting-text{
+            background-color: #fff;
+        }
+    </style>
+
+
+
+
+<!-- Fade Effect -->
+
+    <style>
+        .fade {
+            transition: all 800ms linear;
+            -webkit-transform: translate3d(0,0,0);
+            -moz-transform: translate3d(0,0,0);
+            -ms-transform: translate3d(0,0,0);
+            -o-transform: translate3d(0,0,0);
+            transform: translate3d(0,0,0);
+            opacity: 1;
+        }
+
+        .fade.out{
+            opacity: 0;
+        }
+    </style>
+
+	<script src="/js/jquery.min.js"></script>
+	
+	<link rel="stylesheet" href="/css/highlight/solarized-white.css">
+	
+	<!-- UC Browser Compatible-->
+	<script>
+		var agent = navigator.userAgent.toLowerCase();
+		if(agent.indexOf('ucbrowser')>0) {
+			document.write('<link rel="stylesheet" href="/css/uc.css">');
+		   alert('由于 UC 浏览器使用极旧的内核，而本网站使用了一些新的特性。\n为了您能更好的浏览，推荐使用 Chrome 或 Firefox 浏览器。');
+		}
+	</script>
+    
+    <!-- Custom Head -->
+    
+</head>
+	
+	
+
+    <body id="scheme-Paradox">
+
+		
+        <div class="material-layout  mdl-js-layout has-drawer is-upgraded">
+				
+			
+			
+            <!-- Main Container -->
+            <main class="material-layout__content" id="main">
+				
+                <!-- Top Anchor -->
+                <div id="top"></div>
+				
+				
+                <!-- Hamburger Button -->
+                <button class="MD-burger-icon sidebar-toggle">
+                    <span class="MD-burger-layer"></span>
+                </button>
+				
+				
+                <!-- Post TOC -->
+
+    
+	<!-- Back Button -->
+<!--
+	<div class="material-back" id="backhome-div" tabindex="0">
+		<a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" href="#" onclick="window.history.back();return false;" target="_self" role="button" data-upgraded=",MaterialButton,MaterialRipple">
+			<i class="material-icons" role="presentation">arrow_back</i>
+			<span class="mdl-button__ripple-container">
+				<span class="mdl-ripple"></span>
+			</span>
+		</a>
+	</div>			
+-->
+	<!-- Left aligned menu below button -->
+	<button id="post-toc-trigger-btn"
+			class="mdl-button mdl-js-button mdl-button--icon">
+	  <i class="material-icons">format_list_numbered</i>
+	</button>
+
+	<ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect"
+		for="post-toc-trigger-btn">
+			
+			<ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#CSS3-鲜为人知的属性"><span class="post-toc-number">1.</span> <span class="post-toc-text">CSS3 鲜为人知的属性</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#webkit-tap-highlight-color"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">-webkit-tap-highlight-color</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#webkit-text-size-adjust"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">webkit-text-size-adjust</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#outline：none"><span class="post-toc-number">1.3.</span> <span class="post-toc-text">outline：none</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#webkit-appearance"><span class="post-toc-number">1.4.</span> <span class="post-toc-text">webkit-appearance</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#webkit-user-select"><span class="post-toc-number">1.5.</span> <span class="post-toc-text">-webkit-user-select</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#webkit-touch-callout"><span class="post-toc-number">1.6.</span> <span class="post-toc-text">-webkit-touch-callout</span></a></li></ol></li><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#CSS3那些不为人知的高级属性"><span class="post-toc-number">2.</span> <span class="post-toc-text">CSS3那些不为人知的高级属性</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#WebKit特有属性"><span class="post-toc-number">2.1.</span> <span class="post-toc-text">WebKit特有属性</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#webkit-mask"><span class="post-toc-number">2.1.1.</span> <span class="post-toc-text">-webkit-mask</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#webkit-text-stroke"><span class="post-toc-number">2.1.2.</span> <span class="post-toc-text">-webkit-text-stroke</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#webkit-nbsp-mode"><span class="post-toc-number">2.1.3.</span> <span class="post-toc-text">-webkit-nbsp-mode</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#webkit-tap-highlight-color-1"><span class="post-toc-number">2.1.4.</span> <span class="post-toc-text">-webkit-tap-highlight-color</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#zoom-reset"><span class="post-toc-number">2.1.5.</span> <span class="post-toc-text">zoom: reset</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#webkit-margin-collapse"><span class="post-toc-number">2.1.6.</span> <span class="post-toc-text">-webkit-margin-collapse</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#webkit-box-reflect"><span class="post-toc-number">2.1.7.</span> <span class="post-toc-text">-webkit-box-reflect</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#webkit-marquee"><span class="post-toc-number">2.1.8.</span> <span class="post-toc-text">-webkit-marquee</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Gecko特有属性"><span class="post-toc-number">2.2.</span> <span class="post-toc-text">Gecko特有属性</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#font-size-adjust"><span class="post-toc-number">2.2.1.</span> <span class="post-toc-text">font-size-adjust</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#image-rendering"><span class="post-toc-number">2.2.2.</span> <span class="post-toc-text">image-rendering</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#moz-border-top-colors"><span class="post-toc-number">2.2.3.</span> <span class="post-toc-text">-moz-border-top-colors</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#混合属性"><span class="post-toc-number">2.3.</span> <span class="post-toc-text">混合属性</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#webkit-user-select-和-moz-user-select"><span class="post-toc-number">2.3.1.</span> <span class="post-toc-text">-webkit-user-select 和 -moz-user-select</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#webkit-appearance-和-moz-appearance"><span class="post-toc-number">2.3.2.</span> <span class="post-toc-text">-webkit-appearance 和 -moz-appearance</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#text-align-moz-center-webkit-center"><span class="post-toc-number">2.3.3.</span> <span class="post-toc-text">text-align: -moz-center/-webkit-center</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#CSS-2-1属性"><span class="post-toc-number">2.4.</span> <span class="post-toc-text">CSS 2.1属性</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#counter-increment"><span class="post-toc-number">2.4.1.</span> <span class="post-toc-text">counter-increment</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#quotes"><span class="post-toc-number">2.4.2.</span> <span class="post-toc-text">quotes</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#你或许听说过但是没有记住的CSS3属性"><span class="post-toc-number">2.5.</span> <span class="post-toc-text">你或许听说过但是没有记住的CSS3属性</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#text-overflow"><span class="post-toc-number">2.5.1.</span> <span class="post-toc-text">text-overflow</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#word-wrap"><span class="post-toc-number">2.5.2.</span> <span class="post-toc-text">word-wrap</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#resize"><span class="post-toc-number">2.5.3.</span> <span class="post-toc-text">resize</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#background-attachment"><span class="post-toc-number">2.5.4.</span> <span class="post-toc-text">background-attachment</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#text-rendering"><span class="post-toc-number">2.5.5.</span> <span class="post-toc-text">text-rendering</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#transform-rotateX-transform-rotateY"><span class="post-toc-number">2.5.6.</span> <span class="post-toc-text">transform: rotateX/transform: rotateY</span></a></li></ol></li></ol></li></ol>
+		
+<!--			<li class="mdl-menu__item">Some Action</li>-->
+	</ul>
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+		
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+	<!-- Paradox Post Header -->
+	
+		
+			<!-- Random Thumbnail -->
+			<div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
+				<script>
+    
+    var randomNum;
+    randomNum = Math.floor(Math.random() * 19 + 1);
+    
+    $(".post_thumbnail-random").css('background-image', 'url(' + '/img/random/material-' + randomNum + '.png' + ')');
+    
+</script>
+
+		
+	
+        <p class="article-headline-p">
+            CSS3 鲜为人知的属性
+        </p>
+    </div>
+
+	
+
+				
+				
+					<!-- Paradox Post Info -->
+					<div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar1.jpg" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>NingBo</strong>
+        <span>2月 03, 2017</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+<!--
+    <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+        <i class="material-icons" role="presentation">favorite</i>
+        <span class="visuallyhidden">favorites</span>
+    </button>
+-->
+
+    <!-- Qrcode -->
+    
+
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        
+    </ul>
+    
+
+    <!-- Share -->
+    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+
+    
+
+    
+      
+      <!-- Busuanzi Views -->
+      <a class="post_share-link" href="#">
+        <li class="mdl-menu__item">
+            <span id="busuanzi_container_page_pv">
+                <span id="busuanzi_value_page_pv"></span>&nbsp;浏览量
+            </span>
+        </li>
+      </a>
+      
+    
+
+    <!-- Share Weibo -->
+    
+    <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=CSS3 鲜为人知的属性&url=http://ningbo00.top//2017/02/03/CSS3/index.html&pic=&searchPic=false&style=simple" target="_blank">
+        <li class="mdl-menu__item">
+            分享到微博
+        </li>
+    </a>
+    
+
+    <!-- Share Twitter -->
+    
+
+    <!-- Share Facebook -->
+    
+    <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://ningbo00.top//2017/02/03/CSS3/index.html" target="_blank">
+        <li class="mdl-menu__item">
+            分享到 Facebook
+        </li>
+    </a>
+    
+
+    <!-- Share Google+ -->
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+    <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=NingBo&#39;Blog&title=CSS3 鲜为人知的属性&summary=宁勃的博客&pics=http://ningbo00.top/img/favicon.png&url=http://ningbo00.top/2017/02/03/CSS3/index.html" target="_blank">
+        <li class="mdl-menu__item">
+            分享到 QQ
+        </li>
+    </a>
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
+</div>
+
+				
+
+                <!-- Post Content -->
+                <div id="post-content" class="markdown-Github mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+	
+		<h1 id="CSS3-鲜为人知的属性"><a href="#CSS3-鲜为人知的属性" class="headerlink" title="CSS3 鲜为人知的属性"></a>CSS3 鲜为人知的属性</h1><h2 id="webkit-tap-highlight-color"><a href="#webkit-tap-highlight-color" class="headerlink" title="-webkit-tap-highlight-color"></a>-webkit-tap-highlight-color</h2><p>这个属性只用于iOS (iPhone和iPad)。当你点击一个链接或者通过Javascript定义的可点击元素的时候，它就会出现一个半透明的灰色背景。要重设这个表现，你可以设置-webkit-tap-highlight-color为任何颜色。<br>想要禁用这个高亮，设置颜色的alpha值为0即可。</p>
 <p>示例：设置高亮色为50%透明的红色:  </p>
 <pre><code>-webkit-tap-highlight-color: rgba(255,0,0,0.5);
 </code></pre><p>浏览器支持: 只有iOS(iPhone和iPad).</p>
@@ -233,333 +600,417 @@ q:after {content: close-quote}
 <p><strong>扩展阅读</strong>:&nbsp;<a href="http://www.w3.org/TR/2011/WD-css3-text-20110215/#word-wrap" target="_blank" rel="external">W3C</a>，<a href="http://www.qianduan.net/what-you-need-to-know-about-behavioral-css.html" title="Permanent Link: 你需要知道的CSS3 动画技术" target="_blank" rel="external">你需要知道的CSS3 动画技术</a></p>
 <hr>
 <p>原文链接：<a href="http://www.cnblogs.com/libin-1/p/5903350.html" target="_blank" rel="external">http://www.cnblogs.com/libin-1/p/5903350.html</a></p>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[web前端建站与学习常用网站]]></title>
-      <url>http://ningbo00.top/2016/12/10/f2e-websites/</url>
-      <content type="html"><![CDATA[<h1 id="web前端建站与学习常用网站"><a href="#web前端建站与学习常用网站" class="headerlink" title="web前端建站与学习常用网站"></a>web前端建站与学习常用网站</h1><h2 id="HTML常用手册网站"><a href="#HTML常用手册网站" class="headerlink" title="HTML常用手册网站"></a>HTML常用手册网站</h2><p>html手册，Sublime常用插件，图书、博客</p>
-<p>HTML、CSS、JS在各浏览器兼容情况：<a href="http://caniuse.com/" target="_blank" rel="external">http://caniuse.com/</a></p>
-<p>前端知识体系：<a href="http://www.cnblogs.com/sb19871023/p/3894452.html" target="_blank" rel="external">http://www.cnblogs.com/sb19871023/p/3894452.html</a></p>
-<p>w3school在线教程：<a href="http://www.w3school.com.cn/" target="_blank" rel="external">http://www.w3school.com.cn/</a></p>
-<p>菜鸟教程：<a href="http://www.runoob.com/" target="_blank" rel="external">http://www.runoob.com/</a></p>
-<p>图灵程序设计丛书HTML5权威指南免费电子书：<a href="http://bestcbooks.com/B00H706BIG/" target="_blank" rel="external">http://bestcbooks.com/B00H706BIG/</a></p>
-<hr>
-<p>全栈开发必备的10款Sublime Text插件：<a href="http://www.php100.com/html/it/focus/2014/1128/7935.html" target="_blank" rel="external">http://www.php100.com/html/it/focus/2014/1128/7935.html</a></p>
-<p>Sublime Text插件官网：<a href="https://packagecontrol.io/" target="_blank" rel="external">https://packagecontrol.io/</a></p>
-<p>Sublime Text Emmet插件：<a href="http://docs.emmet.io/" target="_blank" rel="external">http://docs.emmet.io/</a></p>
-<hr>
-<h2 id="CSS工具网站"><a href="#CSS工具网站" class="headerlink" title="CSS工具网站"></a>CSS工具网站</h2><p>css3测试、计算工具</p>
-<p>在线生成CSS代码：<a href="http://enjoycss.com/ref/chrome_extension#transform" target="_blank" rel="external">http://enjoycss.com/ref/chrome_extension#transform</a></p>
-<p>CSS3动画手册、动画代码生成：<a href="http://isux.tencent.com/css3/index.html?transition-property" target="_blank" rel="external">http://isux.tencent.com/css3/index.html?transition-property</a></p>
-<p>Animate.css官网：<a href="https://daneden.github.io/animate.css/" target="_blank" rel="external">https://daneden.github.io/animate.css/</a></p>
-<p>贝塞尔曲线绘制取值网站：<a href="http://cubic-bezier.com/?#.17,.67,.83,.67" target="_blank" rel="external">http://cubic-bezier.com/?#.17,.67,.83,.67</a></p>
-<p>px转em计算网站：<a href="http://pxtoem.com/" target="_blank" rel="external">http://pxtoem.com/</a></p>
-<p>雪碧图自动生成网站：<a href="http://www.spritecow.com/" target="_blank" rel="external">http://www.spritecow.com/</a></p>
-<hr>
-<h2 id="字体、艺术字引用网站集合："><a href="#字体、艺术字引用网站集合：" class="headerlink" title="字体、艺术字引用网站集合："></a>字体、艺术字引用网站集合：</h2><p>Handpicked字体：<a href="https://www.fontsquirrel.com/" target="_blank" rel="external">https://www.fontsquirrel.com/</a></p>
-<p>阿里妈妈webfont平台：<a href="http://www.iconfont.cn/webfont/?spm=a313x.7781069.0.0.f2EDD4#!/webfont/index" target="_blank" rel="external">http://www.iconfont.cn/webfont/?spm=a313x.7781069.0.0.f2EDD4#!/webfont/index</a></p>
-<p>谷歌字体（需墙）：<a href="https://www.google.com/fonts" target="_blank" rel="external">https://www.google.com/fonts</a></p>
-<p>阿里巴巴矢量图标库：<a href="http://www.iconfont.cn/" target="_blank" rel="external">http://www.iconfont.cn/</a></p>
-<p>适用Bootstrap图标网站：<a href="http://www.bootcss.com/p/font-awesome/#integration" target="_blank" rel="external">http://www.bootcss.com/p/font-awesome/#integration</a></p>
-<hr>
-<h2 id="JavaScript常用网站"><a href="#JavaScript常用网站" class="headerlink" title="JavaScript常用网站"></a>JavaScript常用网站</h2><p>jquery、轮播图、瀑布流框架、js深度学习</p>
-<p>jQuery中文网：<a href="http://jquery.cuishifeng.cn/index.html" target="_blank" rel="external">http://jquery.cuishifeng.cn/index.html</a></p>
-<p>轮播图框架Swiper中文网：<a href="http://www.swiper.com.cn/" target="_blank" rel="external">http://www.swiper.com.cn/</a></p>
-<p>瀑布流框架：<a href="http://masonry.desandro.com/" target="_blank" rel="external">http://masonry.desandro.com/</a></p>
-<p>Tween算法：<a href="http://www.cnblogs.com/bluedream2009/archive/2010/06/19/1760909.html" target="_blank" rel="external">http://www.cnblogs.com/bluedream2009/archive/2010/06/19/1760909.html</a></p>
-<p>移动端touch.js：<a href="http://blog.csdn.net/libin_1/article/details/50534611" target="_blank" rel="external">http://blog.csdn.net/libin_1/article/details/50534611</a></p>
-<h2 id="JavaScript深度学习"><a href="#JavaScript深度学习" class="headerlink" title="JavaScript深度学习"></a>JavaScript深度学习</h2><p>推荐javascript-in-one-pic </p>
-<p>js深度体系学习（js-in-one-pic）：<a href="https://github.com/coodict/javascript-in-one-pic/blob/master/README-zh.md" target="_blank" rel="external">https://github.com/coodict/javascript-in-one-pic/blob/master/README-zh.md</a></p>
-<p>图解javascipt上下文与作用域：<a href="http://www.108js.com/article/article1/10201.html?id=1092" target="_blank" rel="external">http://www.108js.com/article/article1/10201.html?id=1092</a></p>
-<p>js原型对象理解：<a href="http://blog.csdn.net/liwenqiang758/article/details/8190263" target="_blank" rel="external">http://blog.csdn.net/liwenqiang758/article/details/8190263</a></p>
-<p>巧用apply、call、bind：<a href="http://www.admin10000.com/document/6711.html" target="_blank" rel="external">http://www.admin10000.com/document/6711.html</a></p>
-<p>原生js封装Ajax：<a href="http://www.jb51.net/article/93037.htm" target="_blank" rel="external">http://www.jb51.net/article/93037.htm</a></p>
-<hr>
-<h2 id="PHP基础学习"><a href="#PHP基础学习" class="headerlink" title="PHP基础学习"></a>PHP基础学习</h2><p>php基础、json、ajax</p>
-<p>PHP手册：<a href="http://www.php.net/" target="_blank" rel="external">http://www.php.net/</a></p>
-<p>代码状态百科：<a href="http://baike.baidu.com/view/1311386.htm" target="_blank" rel="external">http://baike.baidu.com/view/1311386.htm</a></p>
-<p>json在线校验工具：<a href="http://www.kjson.com/" target="_blank" rel="external">http://www.kjson.com/</a></p>
-<p>URL编码/解码：<a href="http://tool.oschina.net/encode?type=4" target="_blank" rel="external">http://tool.oschina.net/encode?type=4</a></p>
-<hr>
-<h2 id="AnjularJS常用"><a href="#AnjularJS常用" class="headerlink" title="AnjularJS常用"></a>AnjularJS常用</h2><p>AnjularJS学习、工具</p>
-<p>AnjularJS菜鸟教程：<a href="http://www.runoob.com/angularjs/angularjs-tutorial.html" target="_blank" rel="external">http://www.runoob.com/angularjs/angularjs-tutorial.html</a></p>
-<p>AnjularJS API文档：<a href="https://angularjs.org/" target="_blank" rel="external">https://angularjs.org/</a></p>
-<p>AnjularJS源码下载/CDN服务：<a href="http://www.bootcdn.cn/angular.js/" target="_blank" rel="external">http://www.bootcdn.cn/angular.js/</a></p>
-<p>最适用工具WebStorm：<a href="http://www.jetbrains.com/webstorm/" target="_blank" rel="external">http://www.jetbrains.com/webstorm/</a></p>
-<p>WebStorm主题：<a href="https://github.com/daylerees/colour-schemes/tree/master/jetbrains" target="_blank" rel="external">https://github.com/daylerees/colour-schemes/tree/master/jetbrains</a></p>
-<p>WebStorm2016.2.3：<a href="http://www.wuleba.com/28503.html" target="_blank" rel="external">http://www.wuleba.com/28503.html</a></p>
-<hr>
-<h2 id="前端进阶高级工具"><a href="#前端进阶高级工具" class="headerlink" title="前端进阶高级工具"></a>前端进阶高级工具</h2><p>前端高效开发工具</p>
-<p>浏览器同步测试工具（自动刷新浏览器）：<a href="http://www.browsersync.cn/" target="_blank" rel="external">http://www.browsersync.cn/</a></p>
-<p>在线压缩图片网站：<a href="https://tinypng.com/" target="_blank" rel="external">https://tinypng.com/</a></p>
-<p>贴图库（免费生成图片外链）：<a href="http://www.tietuku.com/" target="_blank" rel="external">http://www.tietuku.com/</a></p>
-<p>前端语言Top100实时排名：<a href="https://www.awesomes.cn/rank/?sort=hot" target="_blank" rel="external">https://www.awesomes.cn/rank/?sort=hot</a></p>
-<hr>
-<h2 id="建站工具"><a href="#建站工具" class="headerlink" title="建站工具"></a>建站工具</h2><p>小工具，建站必备</p>
-<p>白噪音（雨声、咖啡店…）：<a href="http://soundrown.com/" target="_blank" rel="external">http://soundrown.com/</a></p>
-<p>无版权高清大图：<a href="http://www.ssyer.com/" target="_blank" rel="external">http://www.ssyer.com/</a></p>
-<p>Bootstrap中文网：<a href="http://www.bootcss.com/" target="_blank" rel="external">http://www.bootcss.com/</a></p>
-<p>SVN团队必备：<a href="https://tortoisesvn.net/downloads.html" target="_blank" rel="external">https://tortoisesvn.net/downloads.html</a></p>
-<p>SVN源代码托管中心：<a href="http://svnchina.com/" target="_blank" rel="external">http://svnchina.com/</a></p>
-<p>GitHub个人博客建站Hexo：<a href="https://hexo.io/" target="_blank" rel="external">https://hexo.io/</a></p>
-<p>付费个人建站：<a href="https://www.strikingly.com/" target="_blank" rel="external">https://www.strikingly.com/</a></p>
-<p>Markdown语法说明：<a href="http://wowubuntu.com/markdown/" target="_blank" rel="external">http://wowubuntu.com/markdown/</a></p>
-<p>以上网站都是自己在学习和网站建设中常用的网站，一个好的工具往往可以事半功倍，在日后学习中会继续更新。</p>
-<p>自己在学习html、css、js、jq、php、微信开发、AnjularJS的笔记与总结，优化无止境：<a href="https://github.com/NalvyBoo/HTML5" target="_blank" rel="external">https://github.com/NalvyBoo/HTML5</a></p>
-]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[javaScript和jQuery实现拖拽效果]]></title>
-      <url>http://ningbo00.top/2016/11/10/js-and-jq-drag/</url>
-      <content type="html"><![CDATA[<h1 id="javaScript实现拖拽效果"><a href="#javaScript实现拖拽效果" class="headerlink" title="javaScript实现拖拽效果"></a>javaScript实现拖拽效果</h1><p>鼠标按下移动或者手指拖动对象，对象随之移动，鼠标放开或者手指离开屏幕，对象停止移动。</p>
-<h2 id="Event对象介绍"><a href="#Event对象介绍" class="headerlink" title="Event对象介绍"></a>Event对象介绍</h2><p>Event对象代表事件的状态，比如事件在其中发生的元素、键盘按键的状态、鼠标的位置、鼠标按钮的状态。</p>
-<p>事件通常与函数结合使用，函数不会在事件发生前被执行。</p>
-<h3 id="事件句柄"><a href="#事件句柄" class="headerlink" title="事件句柄"></a>事件句柄</h3><ul>
-<li>onmousedown 鼠标按钮被按下</li>
-<li>onmousemove 鼠标被移动</li>
-<li>onmouseup 鼠标从某元素移开</li>
-</ul>
-<h3 id="鼠标属性"><a href="#鼠标属性" class="headerlink" title="鼠标属性"></a>鼠标属性</h3><ul>
-<li>clientX 返回返回当事件被触发时鼠标指针向对于浏览器页面（或客户区）的水平坐标。</li>
-<li>注释：2 级 DOM 没有提供把窗口坐标转换为文档坐标的标准方法。在 IE 以外的浏览器，使用 window.pageXOffset 和 window.pageYOffset 即可。</li>
-<li>clientY 返回当事件被触发时鼠标指针向对于浏览器页面（客户区）的垂直坐标。</li>
-<li>注释：注意，该坐标不考虑文档的滚动。如果事件发生在窗口的顶部，无论文档滚了多远，clientY 的值都是 0。但是，2 级 DOM 没有提供把窗口坐标转换为文档坐标的标准方法。在 IE 以外的浏览器，使用 window.pageXOffset 和 window.pageYOffset 即可</li>
-<li>screenX 返回事件发生时鼠标指针相对于屏幕的水平坐标。</li>
-<li>screenY 返回事件发生时鼠标指针相对于屏幕的垂直坐标。</li>
-<li>offsetX,offsetY 发生事件的地点在事件源元素的坐标系统中的 x 坐标和 y 坐标。</li>
-<li>offsetLeft 返回当前元素的相对水平偏移位置的偏移容器。</li>
-<li>offsetTop 返回当前元素的相对垂直偏移位置的偏移容器</li>
-<li>offsetHeight 返回，任何一个元素的高度包括边框和填充，但不是边距</li>
-<li>offsetWidth 返回元素的宽度，包括边框和填充，但不是边距</li>
-<li>offsetParent 返回元素的偏移容器</li>
-<li>jQuery event.pageX 返回相对于文档左边缘的鼠标位置</li>
-<li>jQuery event.pageY 返回相对于文档上边缘的鼠标位</li>
-</ul>
-<h2 id="javaScript实现"><a href="#javaScript实现" class="headerlink" title="javaScript实现"></a>javaScript实现</h2><ul>
-<li>onmousedown</li>
-<li>document.onmousemove</li>
-<li><p>document.onmouseup</p>
-<p>  //鼠标按下<br>  var div1 = document.getElementById(“div1”);<br>  div1.onmousedown = function(ev){</p>
-<pre><code>var ev = ev || event;
-//获取鼠标距离元素左边和上边的距离
-//方式1：火狐旧版本不支持
-//var offsetX = ev.offsetX;
-//var offsetY = ev.offsetY;
-//方式2
-var offsetX = ev.clientX - ev.offsetLeft;
-var offsetY = ev.clientY - ev.offsetTop;
 
-//鼠标按下
-document.onmousemove = function(ev){
-    var ev = ev || event;
-    div1.style.left = ev.clientX - this.offsetX + &quot;px&quot;;
-    div1.style.top = ev.clientY - this.offsetY + &quot;px&quot;;
-};
-//鼠标抬起，取消移动事件
-document.onmouseup = function(){
-    document.onmouseup = document.onmousemove = null;
-}；
+	
+	
+	
+	
+</div>
+				
+				
 
-return false;
-</code></pre><p>  };</p>
-</li>
-</ul>
-<p><strong>javaScript实现移动端拖拽</strong></p>
-<pre><code>var isdrag=false;   
-var NowLeft,disX;
-var NowTop,disY; 
-var oDiv2 = document.getElementById(&quot;gamecar&quot;);
-oDiv2.addEventListener(&apos;touchstart&apos;,thismousedown);  
-oDiv2.addEventListener(&apos;touchend&apos;,thismouseup);  
-oDiv2.addEventListener(&apos;touchmove&apos;,thismousemove);  
-function thismousedown(e){
-    isdrag = true;   
-    console.log(e);
-    NowLeft = oDiv2.offsetLeft;  
-    NowTop = oDiv2.offsetTop;   
-    disX = e.touches[0].pageX;
-    disY = e.touches[0].pageY;
-    return false;
-}
-function thismousemove(e){   
-    if(isdrag){
-           oDiv2.style.left = NowLeft + e.touches[0].pageX - disX + &apos;px&apos;; 
-           oDiv2.style.top = NowTop + e.touches[0].pageY - disY + &apos;px&apos;;
-           return false;   
-    }   
-}   
-function thismouseup(){  
-    isdrag = false;  
-};
-</code></pre><p><strong>jQuery实现鼠标拖拽效果</strong></p>
-<pre><code>//鼠标按下
-$(&quot;#gamecar&quot;).on(&quot;mousedown&quot;,function(ev){
-    var ev = ev || window.event;
-    var offsetX = ev.offsetX;
-    var offsetY = ev.offsetY;
-    //鼠标移动
-    $(document).on(&quot;mousemove&quot;,function(ev){
-        var ev = ev || window.event;
-        var carLeft = ev.clientX - offsetX + &quot;px&quot;;
-        var carTop = ev.clientY - offsetY + &quot;px&quot;;
-        $(&quot;#gamecar&quot;).css({
-            left: carLeft,
-            top: carTop
-        });
-    });
-    //鼠标移开
-    $(document).on(&quot;mouseup&quot;,function(){
-        //移除元素所有的事件处理器
-        $(document).unbind();
-    });
-    return false;
-});
-</code></pre><h2 id="完整代码示范"><a href="#完整代码示范" class="headerlink" title="完整代码示范"></a>完整代码示范</h2><pre><code>&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-&lt;meta charset=&quot;UTF-8&quot;&gt;
-&lt;title&gt;&lt;/title&gt;
-&lt;style&gt;
-    *{
-        padding: 0;
-        margin: 0;
+                <!-- Post Comments -->
+                
+                    
+    <!-- 使用多说评论 -->
+    <link rel="stylesheet" href="/css/duoshuo.min.css">
+<style>
+    #ds-thread #ds-reset .ds-post-button{
+        background-color: #0097A7 !important;
     }
-    #div1{
-        width: 100px;
-        height: 100px;
-        background-color: red;
-        position: absolute;
-        left: 100px;
-        top: 200px;
-        border-radius: 50%;
-        box-shadow: 0 0 2px 3px red;
+    #ds-wrapper #ds-reset .ds-icons-32{
+        background-color: #0097A7 !important;
     }
-&lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-    &lt;div id=&quot;div1&quot;&gt;&lt;/div&gt;
-&lt;/body&gt;
-&lt;script type=&quot;text/javascript&quot;&gt;
-var div1 = document.getElementById(&apos;div1&apos;);
+    #ds-reset .ds-highlight {
+        color: #0097A7 !important;
+    }
+</style>
+<div id="comments">
+    <!-- 多说评论框 start -->
+        <div class="ds-thread" 
+            data-thread-key="2017/02/03/CSS3/" 
+            data-url="http://ningbo00.top/2017/02/03/CSS3/"
+            data-title="CSS3 鲜为人知的属性"></div>
+    <!-- 多说评论框 end -->
+</div>
 
-//鼠标按下
-div1.onmousedown = function(ev){
-    console.log(&apos;鼠标按下了&apos;);
-    var ev = ev || event;
 
-    //获取鼠标距离元素左边和上边的距离
-    //方式1:火狐旧版本不兼容
-    //var offsetX = ev.offsetX;
-    //var offsetY = ev.offsetY;
-    //方式2
-    var offsetX = ev.clientX - this.offsetLeft;
-    var offsetY = ev.clientY - this.offsetTop;
 
-    document.onmousemove = function(ev){
+                
+            </div>
 
-        var ev = ev || event;
-        console.log(ev.clientX,ev.clientY);
-
-        div1.style.left = ev.clientX - offsetX + &apos;px&apos;;
-        div1.style.top = ev.clientY - offsetY + &apos;px&apos;;
-    };
-
-    //鼠标抬起，取消移动事件
-    document.onmouseup = function(){
-        document.onmouseup = document.onmousemove = null;
-    };
-
-    return false;
-};
-
-/*
- 三步：
- 1.元素onmousedown
- 2.document.onmousemove
- 3.documnet.onmouseup
- **/
-&lt;/script&gt;
-&lt;/html&gt;
-</code></pre>]]></content>
-    </entry>
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     
-    <entry>
-      <title><![CDATA[正则表达式]]></title>
-      <url>http://ningbo00.top/2016/10/10/reg/</url>
-      <content type="html"><![CDATA[<h1 id="正则表达式简介"><a href="#正则表达式简介" class="headerlink" title="正则表达式简介"></a>正则表达式简介</h1><h2 id="正则表达式的目的"><a href="#正则表达式的目的" class="headerlink" title="正则表达式的目的"></a>正则表达式的目的</h2><ol>
-<li>给定的字符串是否符合正则表达式的过滤逻辑（匹配）</li>
-<li>可以通过正则表达式，从字符串中获取我们想要的特定部分</li>
-</ol>
-<h2 id="正则表达式的特点"><a href="#正则表达式的特点" class="headerlink" title="正则表达式的特点"></a>正则表达式的特点</h2><ol>
-<li>灵活性、逻辑性和功能性非常的强</li>
-<li>可以迅速地用极简的方式达到字符串的复杂控制</li>
-</ol>
-<h2 id="JavaScript-RegExp对象"><a href="#JavaScript-RegExp对象" class="headerlink" title="JavaScript RegExp对象"></a>JavaScript RegExp对象</h2><p>RegExp对象用于规定在文本中检索的内容<br>当检索某个文件时，可以用RegExp这种模式来描述要检索的内容<br>复杂的模式可用于解析、格式检查、替换等等</p>
-<hr>
-<h3 id="JavaScript中正则表达式的声明方式"><a href="#JavaScript中正则表达式的声明方式" class="headerlink" title="JavaScript中正则表达式的声明方式"></a>JavaScript中正则表达式的声明方式</h3><p>创建RegExp对象的语法</p>
-<pre><code>var reg = new RegExp(参数1，参数2)
-</code></pre><ul>
-<li>参数1：正则公式（匹配原则）也可以是要匹配的字符串</li>
-<li>参数2：修饰符，可以省略<ul>
-<li>常用修饰符：i:忽略大小写 g:全局匹配 m:执行多行匹配(结合^ $使用)</li>
-</ul>
-</li>
-</ul>
-<h3 id="直接量语法"><a href="#直接量语法" class="headerlink" title="直接量语法"></a>直接量语法</h3><pre><code>var reg3 = /参数1/修饰符；
-</code></pre><ul>
-<li>参数不能写成字符串</li>
-<li>参数1：匹配原则</li>
-<li>参数2：可选，修饰符（i g m）</li>
-</ul>
-<h3 id="方括号"><a href="#方括号" class="headerlink" title="方括号"></a>方括号</h3><ul>
-<li>[abc]：查找方括号之间的任何字符。</li>
-<li>[^abc]：查找任何不在方括号之间的字符。</li>
-<li>[0-9]：查找任何从 0 至 9 的数字。</li>
-<li>[a-z]：查找任何从小写 a 到小写 z 的字符。</li>
-<li>[A-Z]：查找任何从大写 A 到大写 Z 的字符。</li>
-<li>[A-z]：查找任何从大写 A 到小写 z 的字符。</li>
-<li>[adgk]： 查找给定集合内的任何字符。</li>
-<li>[^adgk]：查找给定集合外的任何字符。</li>
-<li>(red|blue|green)：查找任何指定的选项。</li>
-</ul>
-<h3 id="元字符"><a href="#元字符" class="headerlink" title="元字符"></a>元字符</h3><p>元字符（Metacharacter）是拥有特殊含义的字符：</p>
-<ul>
-<li>.：查找单个字符，除了换行和行结束符。</li>
-<li>\w：查找单词字符。</li>
-<li>\W：查找非单词字符。</li>
-<li>\d：查找数字。</li>
-<li>\D：查找非数字字符。</li>
-<li>\s：查找空白字符。</li>
-<li>\S：查找非空白字符。</li>
-<li>\b：匹配单词边界。</li>
-<li>\B：匹配非单词边界。</li>
-<li>\0：查找 NUL 字符。</li>
-</ul>
-<h3 id="量词"><a href="#量词" class="headerlink" title="量词"></a>量词</h3><ul>
-<li>n+ 匹配任何包含至少一个 n 的字符串。</li>
-<li>n* 匹配任何包含零个或多个 n 的字符串。</li>
-<li>n? 匹配任何包含零个或一个 n 的字符串。</li>
-<li>n{X} 匹配包含 X 个 n 的序列的字符串。</li>
-<li>n{X,Y} 匹配包含 X 或 Y 个 n 的序列的字符串。</li>
-<li>n{X,} 匹配包含至少 X 个 n 的序列的字符串。</li>
-<li>n$ 匹配任何结尾为 n 的字符串。</li>
-<li>^n 匹配任何开头为 n 的字符串。</li>
-<li>?=n 匹配任何其后紧接指定字符串 n 的字符串。</li>
-<li>?!n 匹配任何其后没有紧接指定字符串 n 的字符串。</li>
-</ul>
-<h3 id="RegExp对象的方法"><a href="#RegExp对象的方法" class="headerlink" title="RegExp对象的方法"></a>RegExp对象的方法</h3><p>regExp对象有3个方法：test()、exec()、compile()<br>test()方法检索字符串中的指定值。返回时true或false<br>exec()方法检索字符串中的指定值。返回值是被找到的值。如果没有发现匹配，则返回null<br>compile()方法用于改变RegExp。既可以改变检索模式，也可以添加或删除第二个参数</p>
-<h3 id="支持正则表达式的-String-对象的方法"><a href="#支持正则表达式的-String-对象的方法" class="headerlink" title="支持正则表达式的 String 对象的方法"></a>支持正则表达式的 String 对象的方法</h3><ul>
-<li>search 检索与正则表达式相匹配的值。</li>
-<li>match 找到一个或多个正则表达式的匹配。</li>
-<li>replace 替换与正则表达式匹配的子串。</li>
-<li>split 把字符串分割为字符串数组。</li>
-</ul>
-]]></content>
-    </entry>
+    <!-- Prev Nav -->
     
-  
-  
-</search>
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2016/12/10/f2e-websites/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+        </div>
+    </div>
+
+				
+				
+					<!-- Overlay For Active Sidebar -->
+<div class="sidebar-overlay "></div>
+
+<!-- Material sidebar -->
+<aside id="sidebar" class="sidebar sidebar-colored  sidebar-fixed-left" role="navigation">
+	<div id="sidebar-main">
+	    <!-- Sidebar Header -->
+		<div class="sidebar-header header-cover" style="background-image: url(/img/sidebar_header.png);">
+    <!-- Top bar -->
+    <div class="top-bar"></div>
+
+    <!-- Sidebar toggle button -->
+    <button type="button" class="sidebar-toggle mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" style="display: initial;" data-upgraded=",MaterialButton,MaterialRipple">
+    <i class="material-icons">clear_all</i>
+    <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></button>
+
+    <!-- Sidebar Avatar -->
+    <div class="sidebar-image">
+        <img src="/img/avatar1.jpg" alt="NingBo's avatar">
+    </div>
+
+    <!-- Sidebar Email -->
+    <a data-toggle="dropdown" class="sidebar-brand" href="#settings-dropdown">
+        ningbo0609@163.com
+        <b class="caret"></b>
+    </a>
+</div>
+
+		<!-- Sidebar Navigation  -->
+		<ul class="nav sidebar-nav">
+    <!-- User dropdown  -->
+    <li class="dropdown">
+        <ul id="settings-dropdown" class="dropdown-menu">
+			
+                <li>
+                    <a href="mailto:ningbo0609@163.com" target="_blank" title="Email Me">
+						<i class="material-icons sidebar-material-icons sidebar-indent-left1pc-element">email</i>
+                        Email Me
+                    </a>
+                </li>
+            
+        </ul>
+    </li>
+
+    <!-- Homepage -->
+    <li id="sidebar-first-li">
+        <a href="/" target="_self">
+            <i class="material-icons sidebar-material-icons">home</i>
+             主页
+        </a>
+    </li>
+
+    <!-- I'm Feeling Lucky -->
+<!--
+    <li class="dropdown">
+        <a href="" target="_self">
+            <i class="material-icons sidebar-material-icons">explore</i>
+             sidebar.imlucky
+        </a>
+    </li>
+-->
+
+
+    <!-- Archives  -->
+    <li class="dropdown">
+        <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+            <i class="material-icons sidebar-material-icons">inbox</i>
+             归档
+            <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+            <li>
+            <a class="sidebar_archives-link" href="/archives/2017/02/">二月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/12/">十二月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/11/">十一月 2016<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2016/10/">十月 2016<span class="sidebar_archives-count">1</span></a>
+        </ul>
+    </li>
+
+    <!-- Categories  -->
+    
+    <li class="dropdown">
+        <a href="#" class="ripple-effect dropdown-toggle" data-toggle="dropdown">
+            <i class="material-icons sidebar-material-icons">chrome_reader_mode</i>
+             分类
+            <b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+            <li>
+            
+        </ul>
+    </li>
+    
+
+    <!-- Divider -->
+    <li class="divider"></li>
+
+
+    <!-- Pages  -->
+	
+		<li>
+			<a href="/about" title="关于我">
+				关于我
+			</a>
+		</li>
+	
+		<li>
+			<a href="/links/" title="友情链接">
+				友情链接
+			</a>
+		</li>
+	
+		<li>
+			<a href="/gallery/" title="故事图库">
+				故事图库
+			</a>
+		</li>
+	
+
+    <!-- Article Numebr  -->
+    <li>
+        <a href="/archives">
+             文章总数
+             <span class="sidebar-badge">4</span>
+        </a>
+    </li>
+</ul>
+
+
+		<!-- Sidebar Divider -->
+		<div class="sidebar-divider"></div>
+
+		<!-- Sidebar Footer -->
+		<!-- 
+I'm glad you use this theme, the development is no so easy, I hope you can keep the copyright, I will thank you so much.
+If you still want to delete the copyrights, could you still retain the first one? Which namely "Theme Material"
+It will not impact the appearance and can give developers a lot of support :)
+
+很高兴您使用并喜欢该主题，开发不易 十分谢谢与希望您可以保留一下版权声明。
+如果您仍然想删除的话 能否只保留第一项呢？即 "Theme Material"
+它不会影响美观并可以给开发者很大的支持和动力。 :) 
+-->
+
+<!-- Theme Material -->
+<a href="https://github.com/viosey/hexo-theme-material"  class="sidebar-footer-text-a" target="_blank">
+	<div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple">
+		主题 - Material
+		<span class="sidebar-badge badge-circle">i</span>
+	</div>
+</a>
+
+<!-- Help & Support -->
+<!--
+<a href="mailto:hiviosey@gmail.com" class="sidebar-footer-text-a">
+    <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple">
+		sidebar.help
+		<span class="mdl-button__ripple-container">
+			<span class="mdl-ripple"></span>
+		</span>
+	</div>
+</a>
+-->
+
+<!-- Feedback -->
+<!--
+<a href="https://github.com/viosey/hexo-theme-material/issues" target="_blank" class="sidebar-footer-text-a">
+    <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple">
+         sidebar.feedback
+                    <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></div>
+</a>
+-->
+
+<!-- Abount Theme -->
+<!--
+<a href="https://blog.viosey.com/index.php/Material.html" target="_blank" class="sidebar-footer-text-a">
+    <div class="sidebar-text mdl-button mdl-js-button mdl-js-ripple-effect sidebar-footer-text-div" data-upgraded=",MaterialButton,MaterialRipple">
+         sidebar.about_theme
+        <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></div>
+</a>-->
+
+	</div>
+    
+    <!-- Sidebar Sponsor -->
+    
+
+
+</aside>
+
+				
+				
+				
+					<!-- Footer Top Button -->
+					<div class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
+				
+				
+				<!--Footer-->
+<footer class="mdl-mini-footer" id="bottom">
+	
+	
+		<!-- Paradox Footer Left Section -->
+		<div class="mdl-mini-footer--left-section sns-list">
+    <!-- Twitter -->
+    
+    
+
+    <!-- Facebook -->
+    
+    
+
+    <!-- Google + -->
+    
+    
+
+    <!-- Weibo -->
+    
+    <a href="http://weibo.com/ningbo00" target="_blank"><button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-weibo.png);">
+        <span class="visuallyhidden">Weibo</span>
+    </button></a>
+    
+
+    <!-- Instagram -->
+    
+    
+
+    <!-- Tumblr -->
+    
+    
+
+    <!-- Github -->
+    
+    <a href="https://github.com/NalvyBoo" target="_blank"><button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-github.png);">
+        <span class="visuallyhidden">Github</span>
+    </button></a>
+    
+
+    <!-- LinkedIn -->
+    
+    
+
+    <!-- Zhihu -->
+    
+    <a href="https://www.zhihu.com/people/xi-bo-lai-mei-you-yu/activities" target="_blank"><button class="mdl-mini-footer--social-btn social-btn" style="background-image: url(/img/footer/footer_ico-zhihu.png);">
+        <span class="visuallyhidden">Zhihu</span>
+    </button></a>
+    
+</div>
+
+
+		<!--Copyright-->
+		<div id="copyright">Copyright&nbsp;©&nbsp;<script type="text/javascript">var fd = new Date();document.write(fd.getFullYear());</script>&nbsp;NingBo'Blog</div>
+
+		<!-- Paradox Footer Right Section -->
+
+		<!-- 
+		I'm glad you use this theme, the development is no so easy, I hope you can keep the copyright.
+		It will not impact the appearance and can give developers a lot of support :)
+
+		很高兴您使用该主题，开发不易，希望您可以保留一下版权声明。
+		它不会影响美观并可以给开发者很大的支持。 :) 
+		-->
+
+		<div class="mdl-mini-footer--right-section">
+			<div>
+				<div class="footer-develop-div">Powered by <a href="https://hexo.io" target="_blank" class="footer-develop-a">Hexo</a></div>
+				<div class="footer-develop-div">Theme - <a href="https://github.com/viosey/hexo-theme-material" target="_blank" class="footer-develop-a">Material</a></div>
+			</div>
+		</div>
+	
+    
+</footer>
+                
+				<!-- Import File -->
+<script src="/js/highlight.min.js"></script>
+<script src="/js/js.min.js"></script>
+<script src="/js/nprogress.js"></script>
+
+<script type="text/javascript">
+    NProgress.configure({
+        showSpinner: true
+    });
+    NProgress.start();
+    
+    $('#nprogress .bar').css({
+        'background': '#FF4081'
+    });
+    $('#nprogress .peg').css({
+        'box-shadow': '0 0 10px #FF4081, 0 0 15px #FF4081'
+    });
+    $('#nprogress .spinner-icon').css({
+        'border-top-color': '#FF4081',
+        'border-left-color': '#FF4081'
+    });
+    
+    setTimeout(function() {
+        NProgress.done();
+        $('.fade').removeClass('out');
+    }, 800);
+</script>
+
+
+
+
+
+
+    <!-- Busuanzi -->
+    <script src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+    <!-- 多说公共 js 代码 start -->
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:"ningbo00"};
+        (function() {
+            var ds = document.createElement('script');
+            ds.type = 'text/javascript';ds.async = true;
+            ds.src = 'https://static.duoshuo.com/embed.js';
+            ds.charset = 'UTF-8';
+            (document.getElementsByTagName('head')[0] 
+             || document.getElementsByTagName('body')[0]).appendChild(ds);
+        })();
+    </script>
+    <!-- 多说公共 js 代码 end -->
+
+
+
+
+<!-- Swiftye -->
+
+
+<!-- Local Search-->
+
+
+<!-- Window Load-->
+<script>
+    $(window).load(function() {
+        // Post_Toc parent position fixed
+        $(".post-toc-wrap").parent(".mdl-menu__container").css("position", "fixed");
+    });
+</script>
+
+<!-- MathJax Load-->
+
+            </main>
+        </div>
+		
+    </body>
+		
+	
+</html>
