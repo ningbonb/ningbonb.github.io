@@ -4,6 +4,77 @@
   
     
     <entry>
+      <title><![CDATA[web前端建站与学习常用网站]]></title>
+      <url>http://ningbo00.top/2017/02/09/H5lock/</url>
+      <content type="html"><![CDATA[<h1 id="H5解锁样式绘图（九宫格样式扩展，支持Canvas和图片）"><a href="#H5解锁样式绘图（九宫格样式扩展，支持Canvas和图片）" class="headerlink" title="H5解锁样式绘图（九宫格样式扩展，支持Canvas和图片）"></a>H5解锁样式绘图（九宫格样式扩展，支持Canvas和图片）</h1><p>H5九宫格解锁 样式绘图（支持Canvas和图片）</p>
+<pre><code>http://test.go.163.com/go/2016/1227/H5lock/src/H5lock.js
+</code></pre><h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><p><img src="qr-code/qr-code.png" alt="qr-code"></p>
+<p><a href="http://test.go.163.com/go/2016/1227/H5lock/" target="_blank" rel="external">http://test.go.163.com/go/2016/1227/H5lock/</a></p>
+<h2 id="使用说明"><a href="#使用说明" class="headerlink" title="使用说明"></a>使用说明</h2><h3 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h3><pre><code>&lt;canvas id=&quot;canvas&quot; width=&quot;400&quot; height=&quot;600&quot;&gt;&lt;/canvas&gt;
+</code></pre><h3 id="JavaScript"><a href="#JavaScript" class="headerlink" title="JavaScript"></a>JavaScript</h3><pre><code>&lt;script type=&quot;text/javascript&quot; src=&quot;src/H5lock.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+    var lock = new H5lock({});
+    lock.init(n,m,H5lockImgSrc);//n:列数 m:行数 H5lockImgSrc:图片路径
+&lt;/script&gt;
+</code></pre><h3 id="Option-method"><a href="#Option-method" class="headerlink" title="Option method"></a>Option method</h3><pre><code>lock.reset(); //页面重置
+</code></pre><h3 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h3><pre><code>&lt;div id=&quot;canvas-box&quot;&gt;
+    &lt;a id=&quot;updatePassword&quot;&gt;重置&lt;/a&gt;
+    &lt;canvas id=&quot;canvas&quot; width=&quot;400&quot; height=&quot;600&quot;&gt;&lt;/canvas&gt;
+&lt;/div&gt;  
+</code></pre><hr>
+<pre><code>&lt;script type=&quot;text/javascript&quot; src=&quot;src/H5lock.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+    // 初始化
+    var lock = new H5lock({});
+    //4列,6行,图片路径
+    lock.init(4,6,&quot;src/star3.png&quot;);
+    // 重置按钮
+    document.getElementById(&apos;updatePassword&apos;).addEventListener(&apos;click&apos;, function(){
+        lock.reset();
+    });
+&lt;/script&gt;
+</code></pre><h2 id="高级"><a href="#高级" class="headerlink" title="高级"></a>高级</h2><p>H5Lock.js自定义</p>
+<h3 id="初始页面效果"><a href="#初始页面效果" class="headerlink" title="初始页面效果"></a>初始页面效果</h3><pre><code>H5lock.prototype.drawCle = function(x, y) { // 初始化解锁面板
+    // 线条颜色
+    this.ctx.strokeStyle = &apos;#CFE6FF&apos;;
+    // 线条宽度
+    this.ctx.lineWidth = 2;
+    this.ctx.beginPath();
+    this.ctx.arc(x, y, this.r, 0, Math.PI * 2, true);
+    this.ctx.closePath();
+    this.ctx.stroke();
+}
+</code></pre><h3 id="触碰后样式"><a href="#触碰后样式" class="headerlink" title="触碰后样式"></a>触碰后样式</h3><h4 id="图片实现"><a href="#图片实现" class="headerlink" title="图片实现"></a>图片实现</h4><pre><code>H5lock.prototype.drawPoint = function() { // 初始化触碰后样式（图片）
+    var imgObj = new Image();
+    imgObj.src = this.H5lockImgSrc;
+    for (var i = 0 ; i &lt; this.lastPoint.length ; i++) {
+        var othis = this;
+        this.ctx.clearRect(othis.lastPoint[i].x-(othis.r+2), othis.lastPoint[i].y-(othis.r+2), othis.r*2+4, othis.r*2+4);
+        this.ctx.drawImage(imgObj,othis.lastPoint[i].x-(othis.r+1), othis.lastPoint[i].y-(othis.r+1), othis.r*2+2, othis.r*2+2);
+    }
+}
+</code></pre><h4 id="Canvas实现"><a href="#Canvas实现" class="headerlink" title="Canvas实现"></a>Canvas实现</h4><pre><code>H5lock.prototype.drawPoint = function() { // 初始化触碰后样式（Canvas画圆心）
+    for (var i = 0 ; i &lt; this.lastPoint.length ; i++) {
+        // 填充颜色
+        this.ctx.fillStyle = &apos;#CFE6FF&apos;;
+        this.ctx.beginPath();
+        this.ctx.arc(this.lastPoint[i].x, this.lastPoint[i].y, this.r / 2, 0, Math.PI * 2, true);
+        this.ctx.closePath();
+        this.ctx.fill();
+    }
+}
+</code></pre><h2 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h2><p>报错：<code>Failed to execute &#39;getImageData&#39; on &#39;CanvasRenderingContext2D&#39;: The canvas has been tainted by cross-origin data.</code><br>原因：getImageData此方法不允许操作非此域名外的图片资源，即使是子域也不行<br>解决办法：  </p>
+<ul>
+<li>使用本地服务器进行测试</li>
+<li><a href="http://www.bkjia.com/webzh/994015.html" target="_blank" rel="external">–disable-web-security</a></li>
+<li><a href="http://blog.csdn.net/molaifeng/article/details/42293509" target="_blank" rel="external">将图片转换成为字符串保存在浏览器，使用时再转换</a></li>
+</ul>
+<hr>
+<p>H5解锁密码识别功能：<a href="https://github.com/lvming6816077/H5lock" target="_blank" rel="external">https://github.com/lvming6816077/H5lock</a></p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[CSS3 鲜为人知的属性]]></title>
       <url>http://ningbo00.top/2017/02/03/CSS3/</url>
       <content type="html"><![CDATA[<h1 id="CSS3-鲜为人知的属性"><a href="#CSS3-鲜为人知的属性" class="headerlink" title="CSS3 鲜为人知的属性"></a>CSS3 鲜为人知的属性</h1><h2 id="webkit-tap-highlight-color"><a href="#webkit-tap-highlight-color" class="headerlink" title="-webkit-tap-highlight-color"></a>-webkit-tap-highlight-color</h2><p>这个属性只用于iOS (iPhone和iPad)。当你点击一个链接或者通过Javascript定义的可点击元素的时候，它就会出现一个半透明的灰色背景。要重设这个表现，你可以设置-webkit-tap-highlight-color为任何颜色。<br>想要禁用这个高亮，设置颜色的alpha值为0即可。</p>
