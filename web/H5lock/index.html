@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="target-densitydpi=device-dpi,width=640, user-scalable = no">
+	<meta name="msapplication-tap-highlight" content="no"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <title>H5lock</title>
+    <style type="text/css">
+        *{
+        	margin: 0;
+        	padding: 0;
+        }
+        body{
+        	max-width: 640px;
+            background-color: #0B1D3D;
+        }
+        /*canvas盒子*/
+        #canvas-box{
+        	width: 640px;
+        	height: 1034px;
+        	position: relative;
+        	text-align: center;
+        }
+        /*重置按钮*/
+        #updatePassword{
+            color:#fff;
+            font-size: 20px;
+            padding: 5px 10px;
+        	box-shadow: 0 0 10px #fff;
+            position: absolute;
+            display: inline-block;
+            right: 290px;
+            top: 150px;
+        }
+        #canvas{
+             display: inline-block;
+             margin-top: 200px;
+        }
+    </style>
+</head>
+<body>
+	<div id="canvas-box">
+        <a id="updatePassword">重置</a>
+        <canvas id="canvas" width="400" height="600"></canvas>
+    </div>
+	<script type="text/javascript" src="src/H5lock.js"></script>
+	<script type="text/javascript">
+        // 初始化
+        var lock = new H5lock({});
+        // lock.init(n,m,H5lockImgSrc) n列,m行
+        lock.init(4,6,"src/star3.png");
+        // 重置按钮
+        document.getElementById('updatePassword').addEventListener('click', function(){
+            lock.reset();
+        });
+	</script>
+</body>
+</html>
