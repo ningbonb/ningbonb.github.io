@@ -10,7 +10,7 @@
     <!-- Title -->
     
     <title>
-        H5解锁样式绘图（九宫格样式扩展） | NingBo&#39;Blog
+        cssnext 语法说明 | NingBo&#39;Blog
     </title>
     
     <!-- Favicons -->
@@ -46,7 +46,7 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://ningbo00.top">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="H5解锁样式绘图（九宫格样式扩展） | NingBo&#39;Blog">
+    <meta property="og:title" content="cssnext 语法说明 | NingBo&#39;Blog">
     <meta property="og:description" content="宁勃的博客">
     
      <!--[if lte IE 9]>
@@ -223,7 +223,7 @@
 	<ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect"
 		for="post-toc-trigger-btn">
 			
-			<ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#H5解锁样式绘图（九宫格样式扩展，支持Canvas和图片）"><span class="post-toc-number">1.</span> <span class="post-toc-text">H5解锁样式绘图（九宫格样式扩展，支持Canvas和图片）</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Demo"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">Demo</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#使用说明"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">使用说明</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#HTML"><span class="post-toc-number">1.2.1.</span> <span class="post-toc-text">HTML</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#JavaScript"><span class="post-toc-number">1.2.2.</span> <span class="post-toc-text">JavaScript</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Option-method"><span class="post-toc-number">1.2.3.</span> <span class="post-toc-text">Option method</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#示例"><span class="post-toc-number">1.2.4.</span> <span class="post-toc-text">示例</span></a></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#高级"><span class="post-toc-number">1.3.</span> <span class="post-toc-text">高级</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#初始页面效果"><span class="post-toc-number">1.3.1.</span> <span class="post-toc-text">初始页面效果</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#触碰后样式"><span class="post-toc-number">1.3.2.</span> <span class="post-toc-text">触碰后样式</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#图片实现"><span class="post-toc-number">1.3.2.1.</span> <span class="post-toc-text">图片实现</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#Canvas实现"><span class="post-toc-number">1.3.2.2.</span> <span class="post-toc-text">Canvas实现</span></a></li></ol></li></ol></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#补充"><span class="post-toc-number">1.4.</span> <span class="post-toc-text">补充</span></a></li></ol></li></ol>
+			<ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#cssnext-语法说明"><span class="post-toc-number">1.</span> <span class="post-toc-text">cssnext 语法说明</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#自定义属性-amp-var"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">自定义属性 & var()</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#自定义属性集-amp-apply"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">自定义属性集 & @apply</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#calc-amp-var"><span class="post-toc-number">1.3.</span> <span class="post-toc-text">calc() & var()</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#媒体查询-amp-custom-media"><span class="post-toc-number">1.4.</span> <span class="post-toc-text">媒体查询 & @custom-media</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#自定义选择器-amp-custom-selector"><span class="post-toc-number">1.5.</span> <span class="post-toc-text">自定义选择器 & @custom-selector</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#嵌套-amp-amp"><span class="post-toc-number">1.6.</span> <span class="post-toc-text">嵌套 & &</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#color"><span class="post-toc-number">1.7.</span> <span class="post-toc-text">color()</span></a></li></ol></li></ol>
 		
 <!--			<li class="mdl-menu__item">Some Action</li>-->
 	</ul>
@@ -257,7 +257,7 @@
 		
 	
         <p class="article-headline-p">
-            H5解锁样式绘图（九宫格样式扩展）
+            cssnext 语法说明
         </p>
     </div>
 
@@ -275,7 +275,7 @@
     <!-- Author Name & Date -->
     <div>
         <strong>NingBo</strong>
-        <span>2月 09, 2017</span>
+        <span>2月 17, 2017</span>
     </div>
 
     <div class="section-spacer"></div>
@@ -328,7 +328,7 @@
 
     <!-- Share Weibo -->
     
-    <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=H5解锁样式绘图（九宫格样式扩展）&url=http://ningbo00.top//2017/02/09/H5lock/index.html&pic=&searchPic=false&style=simple" target="_blank">
+    <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=cssnext 语法说明&url=http://ningbo00.top//2017/02/17/cssnext/index.html&pic=&searchPic=false&style=simple" target="_blank">
         <li class="mdl-menu__item">
             分享到微博
         </li>
@@ -340,7 +340,7 @@
 
     <!-- Share Facebook -->
     
-    <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://ningbo00.top//2017/02/09/H5lock/index.html" target="_blank">
+    <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://ningbo00.top//2017/02/17/cssnext/index.html" target="_blank">
         <li class="mdl-menu__item">
             分享到 Facebook
         </li>
@@ -355,7 +355,7 @@
 
     <!-- Share QQ -->
     
-    <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=NingBo&#39;Blog&title=H5解锁样式绘图（九宫格样式扩展）&summary=宁勃的博客&pics=http://ningbo00.top/img/favicon.png&url=http://ningbo00.top/2017/02/09/H5lock/index.html" target="_blank">
+    <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=NingBo&#39;Blog&title=cssnext 语法说明&summary=宁勃的博客&pics=http://ningbo00.top/img/favicon.png&url=http://ningbo00.top/2017/02/17/cssnext/index.html" target="_blank">
         <li class="mdl-menu__item">
             分享到 QQ
         </li>
@@ -373,72 +373,60 @@
                 <!-- Post Content -->
                 <div id="post-content" class="markdown-Github mdl-color-text--grey-700 mdl-card__supporting-text fade out">
 	
-		<h1 id="H5解锁样式绘图（九宫格样式扩展，支持Canvas和图片）"><a href="#H5解锁样式绘图（九宫格样式扩展，支持Canvas和图片）" class="headerlink" title="H5解锁样式绘图（九宫格样式扩展，支持Canvas和图片）"></a>H5解锁样式绘图（九宫格样式扩展，支持Canvas和图片）</h1><p>H5九宫格解锁 样式绘图（支持Canvas和图片）</p>
-<pre><code>http://test.go.163.com/go/2016/1227/H5lock/src/H5lock.js
-</code></pre><p>Github：<a href="https://github.com/NalvyBoo/H5lock/" target="_blank" rel="external">https://github.com/NalvyBoo/H5lock/</a></p>
-<h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><p><img src="https://github.com/NalvyBoo/H5lock/blob/master/qr-code/qr-code.png?raw=true" alt="qr-code"></p>
-<p><a href="http://test.go.163.com/go/2016/1227/H5lock/" target="_blank" rel="external">http://test.go.163.com/go/2016/1227/H5lock/</a></p>
-<h2 id="使用说明"><a href="#使用说明" class="headerlink" title="使用说明"></a>使用说明</h2><h3 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h3><pre><code>&lt;canvas id=&quot;canvas&quot; width=&quot;400&quot; height=&quot;600&quot;&gt;&lt;/canvas&gt;
-</code></pre><h3 id="JavaScript"><a href="#JavaScript" class="headerlink" title="JavaScript"></a>JavaScript</h3><pre><code>&lt;script type=&quot;text/javascript&quot; src=&quot;src/H5lock.js&quot;&gt;&lt;/script&gt;
-&lt;script type=&quot;text/javascript&quot;&gt;
-    var lock = new H5lock({});
-    lock.init(n,m,H5lockImgSrc);//n:列数 m:行数 H5lockImgSrc:图片路径
-&lt;/script&gt;
-</code></pre><h3 id="Option-method"><a href="#Option-method" class="headerlink" title="Option method"></a>Option method</h3><pre><code>lock.reset(); //页面重置
-</code></pre><h3 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h3><pre><code>&lt;div id=&quot;canvas-box&quot;&gt;
-    &lt;a id=&quot;updatePassword&quot;&gt;重置&lt;/a&gt;
-    &lt;canvas id=&quot;canvas&quot; width=&quot;400&quot; height=&quot;600&quot;&gt;&lt;/canvas&gt;
-&lt;/div&gt;  
-</code></pre><hr>
-<pre><code>&lt;script type=&quot;text/javascript&quot; src=&quot;src/H5lock.js&quot;&gt;&lt;/script&gt;
-&lt;script type=&quot;text/javascript&quot;&gt;
-    // 初始化
-    var lock = new H5lock({});
-    //4列,6行,图片路径
-    lock.init(4,6,&quot;src/star3.png&quot;);
-    // 重置按钮
-    document.getElementById(&apos;updatePassword&apos;).addEventListener(&apos;click&apos;, function(){
-        lock.reset();
-    });
-&lt;/script&gt;
-</code></pre><h2 id="高级"><a href="#高级" class="headerlink" title="高级"></a>高级</h2><p>H5Lock.js自定义</p>
-<h3 id="初始页面效果"><a href="#初始页面效果" class="headerlink" title="初始页面效果"></a>初始页面效果</h3><pre><code>H5lock.prototype.drawCle = function(x, y) { // 初始化解锁面板
-    // 线条颜色
-    this.ctx.strokeStyle = &apos;#CFE6FF&apos;;
-    // 线条宽度
-    this.ctx.lineWidth = 2;
-    this.ctx.beginPath();
-    this.ctx.arc(x, y, this.r, 0, Math.PI * 2, true);
-    this.ctx.closePath();
-    this.ctx.stroke();
-}
-</code></pre><h3 id="触碰后样式"><a href="#触碰后样式" class="headerlink" title="触碰后样式"></a>触碰后样式</h3><h4 id="图片实现"><a href="#图片实现" class="headerlink" title="图片实现"></a>图片实现</h4><pre><code>H5lock.prototype.drawPoint = function() { // 初始化触碰后样式（图片）
-    var imgObj = new Image();
-    imgObj.src = this.H5lockImgSrc;
-    for (var i = 0 ; i &lt; this.lastPoint.length ; i++) {
-        var othis = this;
-        this.ctx.clearRect(othis.lastPoint[i].x-(othis.r+2), othis.lastPoint[i].y-(othis.r+2), othis.r*2+4, othis.r*2+4);
-        this.ctx.drawImage(imgObj,othis.lastPoint[i].x-(othis.r+1), othis.lastPoint[i].y-(othis.r+1), othis.r*2+2, othis.r*2+2);
-    }
-}
-</code></pre><h4 id="Canvas实现"><a href="#Canvas实现" class="headerlink" title="Canvas实现"></a>Canvas实现</h4><pre><code>H5lock.prototype.drawPoint = function() { // 初始化触碰后样式（Canvas画圆心）
-    for (var i = 0 ; i &lt; this.lastPoint.length ; i++) {
-        // 填充颜色
-        this.ctx.fillStyle = &apos;#CFE6FF&apos;;
-        this.ctx.beginPath();
-        this.ctx.arc(this.lastPoint[i].x, this.lastPoint[i].y, this.r / 2, 0, Math.PI * 2, true);
-        this.ctx.closePath();
-        this.ctx.fill();
-    }
-}
-</code></pre><h2 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h2><p>报错：<code>Failed to execute &#39;getImageData&#39; on &#39;CanvasRenderingContext2D&#39;: The canvas has been tainted by cross-origin data.</code><br>原因：getImageData此方法不允许操作非此域名外的图片资源，即使是子域也不行<br>解决办法：  </p>
+		<h1 id="cssnext-语法说明"><a href="#cssnext-语法说明" class="headerlink" title="cssnext 语法说明"></a>cssnext 语法说明</h1><p>支持书写CSS未来语法的插件，文章整理了支持PostCSS的常用语法</p>
 <ul>
-<li>使用本地服务器进行测试</li>
-<li><a href="http://www.bkjia.com/webzh/994015.html" target="_blank" rel="external">–disable-web-security</a></li>
-<li><a href="http://blog.csdn.net/molaifeng/article/details/42293509" target="_blank" rel="external">将图片转换成为字符串保存在浏览器，使用时再转换</a></li>
+<li>自定义属性 &amp; <code>var()</code></li>
+<li>自定义属性集 &amp; <code>@apply</code></li>
+<li><code>calc()</code> &amp; <code>var()</code></li>
+<li>媒体查询 &amp; <code>@custom-media</code></li>
+<li>自定义选择器 &amp; <code>@custom-selector</code></li>
+<li>嵌套 &amp; <code>&amp;</code></li>
+<li>color()</li>
 </ul>
 <hr>
-<p>H5解锁密码识别功能：<a href="https://github.com/lvming6816077/H5lock" target="_blank" rel="external">https://github.com/lvming6816077/H5lock</a></p>
+<h2 id="自定义属性-amp-var"><a href="#自定义属性-amp-var" class="headerlink" title="自定义属性 &amp; var()"></a>自定义属性 &amp; <code>var()</code></h2><p>在 <code>:root{}</code> 中定义常用属性，使用<code>--</code>前缀命名变量<br>使用 <code>var()</code> 调用</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="selector-pseudo">:root</span>&#123;</div><div class="line">	<span class="attribute">--mainColor</span>: red;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="selector-tag">a</span>&#123;</div><div class="line">	<span class="attribute">color</span>: <span class="built_in">var</span>(--mainColor);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>编译后样式</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">a</span>&#123;</div><div class="line">	<span class="attribute">color</span>: red;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<hr>
+<h2 id="自定义属性集-amp-apply"><a href="#自定义属性集-amp-apply" class="headerlink" title="自定义属性集 &amp; @apply"></a>自定义属性集 &amp; <code>@apply</code></h2><p>在 <code>:root{}</code> 中定义属性集，使用 <code>--</code> 前缀命名属性集变量名<br>使用 <code>@apply</code> 进行调用<br>在 <code>http://cssnext.io/playground/</code> 在线测试有效</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">:root &#123;</div><div class="line">  --centered: &#123;</div><div class="line">    display: flex;</div><div class="line">    align-items: center;</div><div class="line">    justify-content: center;</div><div class="line">  &#125;;</div><div class="line">&#125;</div><div class="line"></div><div class="line">.centered &#123;</div><div class="line">  @apply --centered;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>编译后样式</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.centered</span> &#123;</div><div class="line">  <span class="attribute">display</span>: -webkit-box;</div><div class="line">  <span class="attribute">display</span>: -ms-flexbox;</div><div class="line">  <span class="attribute">display</span>: flex;</div><div class="line">  <span class="attribute">-webkit-box-align</span>: center;</div><div class="line">      <span class="attribute">-ms-flex-align</span>: center;</div><div class="line">          <span class="attribute">align-items</span>: center;</div><div class="line">  <span class="attribute">-webkit-box-pack</span>: center;</div><div class="line">      <span class="attribute">-ms-flex-pack</span>: center;</div><div class="line">          <span class="attribute">justify-content</span>: center;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<hr>
+<h2 id="calc-amp-var"><a href="#calc-amp-var" class="headerlink" title="calc() &amp; var()"></a><code>calc()</code> &amp; <code>var()</code></h2><p>使自定义属性支持 <code>calc()</code></p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="selector-pseudo">:root</span>&#123;</div><div class="line">	<span class="attribute">--fontSize</span>: <span class="number">1rem</span>;</div><div class="line">&#125;</div><div class="line"><span class="selector-tag">h1</span>&#123;</div><div class="line">	<span class="attribute">font-size</span>: <span class="built_in">calc</span>(var(--fontSize)*<span class="number">2</span>);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>编译后样式</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">h1</span>&#123;</div><div class="line">	<span class="attribute">font-size</span>: <span class="built_in">calc</span>(1rem*2);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<hr>
+<h2 id="媒体查询-amp-custom-media"><a href="#媒体查询-amp-custom-media" class="headerlink" title="媒体查询 &amp; @custom-media"></a>媒体查询 &amp; <code>@custom-media</code></h2><p>支持使用<code>&lt;=</code>,<code>&gt;=</code>;代码在css最后<br><strong>注意：变量名和括号之间保留空格</strong></p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">@<span class="keyword">custom</span>-<span class="keyword">media</span> --small-viewport (max-width: <span class="number">30em</span>);</div><div class="line">@<span class="keyword">media</span> (--small-viewport)&#123;</div><div class="line">	<span class="selector-tag">body</span> &#123; <span class="attribute">font-size</span>: <span class="number">10rem</span>;&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>编译后样式</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">@<span class="keyword">media</span> (max-width: <span class="number">30em</span>)&#123;</div><div class="line">	<span class="selector-tag">body</span>&#123;</div><div class="line">		<span class="attribute">font-size</span>: <span class="number">10rem</span>;</div><div class="line">	&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<hr>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">@<span class="keyword">custom</span>-<span class="keyword">media</span> --viewport-medium (width &lt;= <span class="number">50rem</span>);</div><div class="line">@<span class="keyword">media</span> (--viewport-medium) &#123;</div><div class="line"><span class="selector-tag">body</span> &#123; <span class="attribute">font-size</span>: <span class="built_in">calc</span>(var(--fontSize) * <span class="number">1.2</span>); &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>编译后样式</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">@media (max-width: 50rem)&#123;</div><div class="line">	body&#123;</div><div class="line">		font-size: calc(1rem * 1.2);</div><div class="line">	&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<hr>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">@<span class="keyword">media</span> (width &gt;= <span class="number">500px</span>) and (width &lt;= <span class="number">1200px</span>)&#123;</div><div class="line">	<span class="selector-tag">body</span>&#123;</div><div class="line">		<span class="attribute">width</span>: <span class="number">100%</span>;</div><div class="line">	&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>编译后结果</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">@<span class="keyword">media</span> (min-width: <span class="number">500px</span>) and (max-width: <span class="number">1200px</span>)&#123;</div><div class="line">	<span class="selector-tag">body</span>&#123;</div><div class="line">		<span class="attribute">width</span>: <span class="number">100%</span>;</div><div class="line">	&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<hr>
+<h2 id="自定义选择器-amp-custom-selector"><a href="#自定义选择器-amp-custom-selector" class="headerlink" title="自定义选择器 &amp; @custom-selector"></a>自定义选择器 &amp; <code>@custom-selector</code></h2><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">@<span class="keyword">custom</span>-<span class="keyword">selector</span> :--button button, .button;</div><div class="line">@<span class="keyword">custom</span>-<span class="keyword">selector</span> :--enter :hover, :focus;</div><div class="line">@<span class="keyword">custom</span>-<span class="keyword">selector</span> :--heading h1, h2, h3, h4, h5, h6;</div><div class="line"></div><div class="line"><span class="selector-pseudo">:--button</span>&#123;</div><div class="line">	<span class="attribute">box-shadow</span>: <span class="number">0</span> <span class="number">0</span> <span class="number">1px</span> black;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="selector-tag">a</span><span class="selector-pseudo">:--enter</span>&#123;</div><div class="line">	<span class="attribute">color</span>: black;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="selector-pseudo">:--heading</span> &#123; </div><div class="line">	<span class="attribute">margin-top</span>: <span class="number">0</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>编译后样式</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">button, .button&#123;</div><div class="line">	box-shadow: 0 0 1px black;</div><div class="line">&#125;</div><div class="line"></div><div class="line">a:hover, a:focus&#123;</div><div class="line">	color: black;</div><div class="line">&#125;</div><div class="line"></div><div class="line">h1, h2, h3, h4, h5, h6 &#123; </div><div class="line">	margin-top: 0;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<hr>
+<h2 id="嵌套-amp-amp"><a href="#嵌套-amp-amp" class="headerlink" title="嵌套 &amp; &amp;"></a>嵌套 &amp; <code>&amp;</code></h2><p><code>@nest selector &amp;</code> 外层嵌套<br>支持嵌套媒体查询</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">a&#123;</div><div class="line">	&amp; span&#123;</div><div class="line">		color: white;</div><div class="line">	&#125;</div><div class="line">	</div><div class="line">	@nest span &amp;&#123;</div><div class="line">		color: blue;</div><div class="line">	&#125;</div><div class="line">	/*嵌套@media*/</div><div class="line">	@media (min-width: 30rem)&#123;</div><div class="line">		color: yellow;</div><div class="line">	&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>编译后样式</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">a</span>&#123;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="selector-tag">a</span> <span class="selector-tag">span</span>&#123;</div><div class="line">	<span class="attribute">color</span>: white;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="selector-tag">span</span> <span class="selector-tag">a</span>&#123;</div><div class="line">	<span class="attribute">color</span>: blue;</div><div class="line">&#125;</div><div class="line"></div><div class="line">@<span class="keyword">media</span> (min-width: <span class="number">30em</span>) &#123;</div><div class="line">    <span class="selector-tag">a</span>&#123;</div><div class="line">    	<span class="attribute">color</span>: yellow</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<hr>
+<h2 id="color"><a href="#color" class="headerlink" title="color()"></a>color()</h2><p>更多颜色修饰：<a href="https://github.com/postcss/postcss-color-function#list-of-color-adjuster" target="_blank" rel="external">https://github.com/postcss/postcss-color-function#list-of-color-adjuster</a></p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">a</span>&#123;</div><div class="line">	<span class="attribute">color</span>: <span class="built_in">color</span>(red alpha(-10%));</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="selector-tag">a</span><span class="selector-pseudo">:hover</span>&#123;</div><div class="line">	<span class="attribute">color</span>: <span class="built_in">color</span>(red blackness(80%));</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>编译后样式</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">a</span>&#123;</div><div class="line">	<span class="attribute">color</span>: <span class="number">#ff0000</span>;</div><div class="line">	<span class="attribute">color</span>: <span class="built_in">rgba</span>(255, 0, 0, 0.9);</div><div class="line">&#125;</div><div class="line"><span class="selector-tag">a</span><span class="selector-pseudo">:hover</span>&#123;</div><div class="line">	<span class="attribute">color</span>: <span class="built_in">rgb</span>(51, 0, 0);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<hr>
+<p>更多语法规则：<a href="http://cssnext.io/" target="_blank" rel="external">http://cssnext.io/</a><br>文章源码下载：<a href="https://github.com/NalvyBoo/PostCSS-Comn/tree/master/cssnext" target="_blank" rel="external">https://github.com/NalvyBoo/PostCSS-Comn/tree/master/cssnext</a></p>
 
 	
 	
@@ -467,9 +455,9 @@
 <div id="comments">
     <!-- 多说评论框 start -->
         <div class="ds-thread" 
-            data-thread-key="2017/02/09/H5lock/" 
-            data-url="http://ningbo00.top/2017/02/09/H5lock/"
-            data-title="H5解锁样式绘图（九宫格样式扩展）"></div>
+            data-thread-key="2017/02/17/cssnext/" 
+            data-url="http://ningbo00.top/2017/02/17/cssnext/"
+            data-title="cssnext 语法说明"></div>
     <!-- 多说评论框 end -->
 </div>
 
@@ -483,21 +471,13 @@
     
     <!-- Prev Nav -->
     
-        <a href="/2017/02/15/postCSS-Comn/" id="post_nav-newer" class="prev-content">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_back</i>
-            </button>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            新篇
-        </a>
-    
 
     <!-- Section Spacer -->
     <div class="section-spacer"></div>
 
     <!-- Next Nav -->
     
-        <a href="/2017/02/03/CSS3/" id="post_nav-older" class="next-content">
+        <a href="/2017/02/16/precss/" id="post_nav-older" class="next-content">
             旧篇
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
