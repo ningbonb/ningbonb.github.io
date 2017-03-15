@@ -4,7 +4,7 @@
   
     
     <entry>
-      <title><![CDATA[ES-02 let和const命令]]></title>
+      <title><![CDATA[ES6-02 let 和 const 命令]]></title>
       <url>http://ningbo00.top/2017/03/15/es6-let/</url>
       <content type="html"><![CDATA[<p>原文链接：<a href="http://es6.ruanyifeng.com/" target="_blank" rel="external">http://es6.ruanyifeng.com/</a></p>
 <h1 id="let-和-const命令"><a href="#let-和-const命令" class="headerlink" title="let 和 const命令"></a>let 和 const命令</h1><h2 id="let基本用法"><a href="#let基本用法" class="headerlink" title="let基本用法"></a>let基本用法</h2><p>用法类似于var,但是所生命的变量，只在let所在的代码块内有效</p>
@@ -42,10 +42,10 @@
     </entry>
     
     <entry>
-      <title><![CDATA[ES6-01 Babel配置]]></title>
+      <title><![CDATA[ES6-01 Babel 配置]]></title>
       <url>http://ningbo00.top/2017/03/15/es6-babel/</url>
       <content type="html"><![CDATA[<p>原文链接：<a href="http://es6.ruanyifeng.com/" target="_blank" rel="external">http://es6.ruanyifeng.com/</a></p>
-<h1 id="Bable配置"><a href="#Bable配置" class="headerlink" title="Bable配置"></a>Bable配置</h1><h2 id="配置文件-babelrc"><a href="#配置文件-babelrc" class="headerlink" title="配置文件 .babelrc"></a>配置文件 <code>.babelrc</code></h2><ul>
+<h1 id="Babel-配置"><a href="#Babel-配置" class="headerlink" title="Babel 配置"></a>Babel 配置</h1><h2 id="配置文件-babelrc"><a href="#配置文件-babelrc" class="headerlink" title="配置文件 .babelrc"></a>配置文件 <code>.babelrc</code></h2><ul>
 <li>使用Bable的第一步，在项目根目录下新建并配置文件 <code>.babelrc</code>  </li>
 <li>window 环境下，命名 <code>.babelrc.</code> 生成配置文件</li>
 <li>该文件来设置转码规则和插件，基本格式如下</li>
