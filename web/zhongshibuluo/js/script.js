@@ -17,7 +17,6 @@ $(function(){
     addNewPro(0);
     // 新闻详细页
     showNews();
-
 });
 
 // 产品详细页
@@ -80,13 +79,13 @@ function addScrollbar(){
 
 // 添加页脚
 function addFooter() {
-    $(".footer").append("<p>Copyright &copy;2016 中式部落 Powered By NingBo 技术支持</p>")
+    $(".footer").append("<p>Copyright &copy;2017 中式部落 Powered By NingBo 技术支持</p>")
         .append("<p>班级学号：13140B05 1314010444</p>");
 }
 // 添加导航条
 function addNav() {
     for(var i = 0; i < navList.length; i++){
-        $(".nav").append("<li>"+ navList[i] +"</li>");
+        $(".nav").append("<li class='hvr-radial-in'>"+ navList[i] +"</li>");
     }
     $(".nav li").eq(0).css("color","rgb(177, 41, 35)");
     // 给导航条添加点击事件
@@ -117,7 +116,7 @@ function addNews() {
             $(".news").append("<ul></ul>");
         }
         $(".news ul:first-child").css("display","block");
-        $(".news ul").eq(index).append("<li class='"+ news[i].newsNum +"'><a href='javascript:;'>" + news[i].title + "</a><span>"+ news[i].date +"</span></li>");
+        $(".news ul").eq(index).append("<li class='"+ news[i].newsNum +"'><a href='javascript:;' class='hvr-rotate'>" + news[i].title + "</a><span>"+ news[i].date +"</span></li>");
     }
     // 添加分页器
     $(".news").append("<div class='pageNum'></div>");
@@ -164,7 +163,7 @@ function addInf(){
 
     for(var i = 0; i < $(".c").length; i++){
         if(i == 0)continue;
-        $(".c").eq(i).append("<div class='intro-title'>"+ introTitleList[i-1] +"</div>");
+        $(".c").eq(i).append("<div class='intro-title hvr-float-shadow'>"+ introTitleList[i-1] +"</div>");
     }
 }
 
@@ -174,24 +173,24 @@ function addPro(){
     addProMenu();
     // 产品默认页
     // addNewPro(0);
-    $(".proMenu li").eq(0).css("color","silver");
+    $(".proMenu li").eq(0).css("color","#fff");
 
     $(".proMenu li").on("click",function(){
         // 移除旧产品
         $(".proBox").remove();
-        $(".proMenu li").css("color","#fff");
+        $(".proMenu li").css("color","silver");
 
         var index = $(this).index();
         // 添加新产品
         addNewPro(index);
-        $(".proMenu li").eq(index).css("color","silver");
+        $(".proMenu li").eq(index).css("color","#fff");
     });
 }
 
 // 添加产品导航
 function addProMenu(){
     for(var i = 0; i < proMenuList.length; i++){
-        $(".proMenu").append("<li>"+ proMenuList[i] +"</li>");
+        $(".proMenu").append("<li class='hvr-bubble-bottom hvr-forward'>"+ proMenuList[i] +"</li>");
     }
 }
 
@@ -209,7 +208,7 @@ function addNewPro(index){
 
     // 添加新产品
     for(var j = 0; j < proNum; j++){
-        $("#mCSB_1_container").append("<div class='proBox' id='"+ newProList[j].proNum +"'><img src='"+
+        $("#mCSB_1_container").append("<div class='proBox hvr-grow' id='"+ newProList[j].proNum +"'><img src='"+
             newProList[j].img +"' alt='"+
             newProList[j].font +"' title='"+
             newProList[j].font +"'><span>"+
