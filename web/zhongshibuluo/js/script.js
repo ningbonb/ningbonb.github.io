@@ -12,17 +12,30 @@ $(function(){
     // 添加文字信息
     addInf();
     // 滚动条初始化
-    addScrollbar();
+    addScrollbar(".product");
     // 产品初始页
     addNewPro(0);
     // 新闻详细页
     showNews();
+    // 全景加载
+    krpanoShow();
 });
+
+//隐藏全景
+function hideKrpano(){
+    $("#pano").fadeOut(500);
+}
+
+function krpanoShow(){
+    $(".krpanoBtn").on("click",function(){
+        $("#pano").show();
+        embedpano({swf:"vtour/tour.swf", xml:"vtour/tour.xml", target:"pano", html5:"auto", mobilescale:1.0, passQueryParameters:true});
+    });
+}
 
 // 产品详细页
 function showProducts(){
     $(".proBox").on("click",function(){
-        console.log($(this).attr("id"));
         var proConNum = $(this).attr("id");
         for(var i = 0; i < products.length; i++){
             if(products[i].proNum == proConNum){
@@ -32,6 +45,8 @@ function showProducts(){
             }
         }
         $(".full").slideDown("slow");
+        // 加载滚动条
+        addScrollbar2(".full-wrap");
     });
     $(".full-close").on("click",function(){
         $(".full").slideUp("slow");
@@ -58,8 +73,8 @@ function showNews(){
 }
 
 // 滚动条初始化
-function addScrollbar(){
-    $(".product").mCustomScrollbar({
+function addScrollbar(obj){
+    $(obj).mCustomScrollbar({
         theme:"light-thick",
         // 按钮初始化
         scrollButtons:{
@@ -75,7 +90,17 @@ function addScrollbar(){
         alwaysShowScrollbar: 2
     });
 }
-
+function addScrollbar2(obj){
+    $(obj).mCustomScrollbar({
+        theme:"light-thick",
+        // 键盘初始化
+        keyboard:{
+            enable: true,
+            scrollAmount: 150
+        },
+        alwaysShowScrollbar: 2
+    });
+}
 
 // 添加页脚
 function addFooter() {
