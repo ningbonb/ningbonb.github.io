@@ -23,10 +23,6 @@ $(function(){
 
 //隐藏全景
 function hideKrpano(){
-    if(!!navigator.userAgent.match(/Mobile.*/)){
-        alert("请使用PC浏览器查看官网");
-        return;
-    }
     $("#pano").fadeOut(500);
 }
 
