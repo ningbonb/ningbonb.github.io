@@ -3,17 +3,17 @@ var introTitleList = ['公司简介','新闻动态','产品展示','联系我们
 var proMenuList = ['客厅吸顶灯','客厅吊灯','餐厅吊灯','卧室灯','台灯','落地灯','壁灯','新中式配置'];
 
 var news = [
-    {"title":"新闻标题1","date":"2017-03-14","newsNum":"1","content":"新闻详细内容1"},
-    {"title":"新闻标题2","date":"2017-03-14","newsNum":"2","content":"新闻详细内容2"},
-    {"title":"新闻标题3","date":"2017-03-14","newsNum":"3","content":"新闻详细内容3"},
-    {"title":"新闻标题4","date":"2017-03-14","newsNum":"4","content":"新闻详细内容4"},
-    {"title":"新闻标题5","date":"2017-03-14","newsNum":"5","content":"新闻详细内容5"},
-    {"title":"新闻标题6","date":"2017-03-14","newsNum":"6","content":"新闻详细内容6"},
-    {"title":"新闻标题7","date":"2017-03-14","newsNum":"7","content":"新闻详细内容7"},
-    {"title":"新闻标题8","date":"2017-03-14","newsNum":"8","content":"新闻详细内容8"},
-    {"title":"新闻标题9","date":"2017-03-14","newsNum":"9","content":"新闻详细内容9"},
-    {"title":"新闻标题10","date":"2017-03-14","newsNum":"10","content":"新闻详细内容10"},
-    {"title":"新闻标题11","date":"2017-03-14","newsNum":"11","content":"新闻详细内容11"}
+    {"title":"新闻标题1","date":"2017-03-14","newsNum":"1","content":"<p>新闻详细内容1</p>"},
+    {"title":"新闻标题2","date":"2017-03-14","newsNum":"2","content":"<p>新闻详细内容2</p>"},
+    {"title":"新闻标题3","date":"2017-03-14","newsNum":"3","content":"<p>新闻详细内容3</p>"},
+    {"title":"新闻标题4","date":"2017-03-14","newsNum":"4","content":"<p>新闻详细内容4</p>"},
+    {"title":"新闻标题5","date":"2017-03-14","newsNum":"5","content":"<p>新闻详细内容5</p>"},
+    {"title":"新闻标题6","date":"2017-03-14","newsNum":"6","content":"<p>新闻详细内容6</p>"},
+    {"title":"新闻标题7","date":"2017-03-14","newsNum":"7","content":"<p>新闻详细内容7</p>"},
+    {"title":"新闻标题8","date":"2017-03-14","newsNum":"8","content":"<p>新闻详细内容8</p>"},
+    {"title":"新闻标题9","date":"2017-03-14","newsNum":"9","content":"<p>新闻详细内容9</p>"},
+    {"title":"新闻标题10","date":"2017-03-14","newsNum":"10","content":"<p>新闻详细内容10</p>"},
+    {"title":"新闻标题11","date":"2017-03-14","newsNum":"11","content":"<p>新闻详细内容11</p>"}
 ];
 
 

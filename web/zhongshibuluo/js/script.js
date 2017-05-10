@@ -45,6 +45,7 @@ function showProducts(){
             }
         }
         $(".full").slideDown("slow");
+        $(".krpanoBtn").show();
         // 加载滚动条
         addScrollbar2(".full-wrap");
     });
@@ -66,6 +67,8 @@ function showNews(){
             }
         }
         $(".full").slideDown("slow");
+        $(".krpanoBtn").hide();
+
     });
     $(".full-close").on("click",function(){
        $(".full").slideUp("slow");

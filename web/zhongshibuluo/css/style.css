@@ -303,11 +303,11 @@ html, body{ height: 100%; overflow: hidden; }
 .w .m .footer p{ font-size: 14px; width: 100%; text-align: center; line-height: 30px; }
 /*产品 新闻框*/
 .w .m .full{ width: 100%; height: 100%; position: absolute; left: 0; right: 0; background: #ffffff; background: rgba(255,255,255,0.85); display: none; color: #000; }
-.w .m .full .krpanoBtn{ width: 200px; height: 32px; position: absolute; text-align: center; top: 50px; left: 50px; color: #633C15; line-height: 32px; -webkit-transition: all 0.5s; transition: all 0.5s }
+.w .m .full .krpanoBtn{ width: 200px; height: 32px; position: absolute; text-align: center; top: 52px; left: 98px; color: #633C15; line-height: 32px; -webkit-transition: all 0.5s; transition: all 0.5s }
 .w .m .full .krpanoBtn:hover{ color: #000; font-size: 25px; }
 .w .m .full .full-title{ width: 100%; display: inline-block; margin: 50px auto; text-align: center; font-size: 25px; z-index: 10	; font-weight: bold; }
-.w .m .full .full-close{ width: 64px; height: 64px; position: absolute; top: 34px; right: 58px; background: url(../img/remove.png) no-repeat; background: url(../img/remove.png) no-repeat; cursor: pointer; }
-.w .m .full .full-wrap{ height: 730px; position: absolute; width: 100%; left: 0; right: 0; bottom: 30px; margin: auto; overflow: auto; line-height: 30px; text-align: center; box-sizing: border-box; padding: 0 30px; }
+.w .m .full .full-close{ width: 64px; height: 64px; position: absolute; top: 34px; right: 125px; background: url(../img/remove.png) no-repeat; background: url(../img/remove.png) no-repeat; cursor: pointer; }
+.w .m .full .full-wrap{ height: 730px; position: absolute; width: 100%; left: 0; right: 0; bottom: 30px; margin: auto; overflow: auto; line-height: 30px; text-align: center; box-sizing: border-box; padding: 0 128px; }
 .w .m .full .full-wrap .full-content{ min-height: 800px; }
 .w .m .full .full-wrap .full-content p{ text-align: left; box-sizing: border-box; padding: 10px 0; }
 .w .m .full .full-wrap .full-content img{ width: 100%; }

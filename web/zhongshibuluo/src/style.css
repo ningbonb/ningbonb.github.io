@@ -525,8 +525,8 @@ $border_test: 1px solid red;
 				height: 32px;
 				position: absolute;
 				text-align: center;
-				top: 50px;
-				left: 50px;
+				top: 52px;
+				left: 98px;
 				color: #633C15;
 				line-height: 32px;
 				transition: all 0.5s;
@@ -549,7 +549,7 @@ $border_test: 1px solid red;
 				height: 64px;
 				position: absolute;
 				top: 34px;
-				right: 58px;
+				right: 125px;
 				background: url(../img/remove.png) no-repeat;
 				cursor: pointer;
 			}
@@ -565,7 +565,7 @@ $border_test: 1px solid red;
 				line-height: 30px;
 				text-align: center;
 				box-sizing: border-box;
-				padding: 0 30px;
+				padding: 0 128px;
 				.full-content{
 					min-height: 800px;
 				p{
