@@ -1,7 +1,11 @@
 ﻿<krpano version="1.19" title="Virtual Tour">
 
 	<include url="skin/vtourskin.xml" />
-
+	<plugin name="skin_gyro"
+			enabled="true"
+			camroll="false"
+			onenable="set(view.limitview, range);"
+	/>
 
 	<!-- customize skin settings: maps, gyro, webvr, thumbnails, tooltips, layout, design, ... -->
 	<skin_settings maps="false"
@@ -72,6 +76,25 @@
 		if(startscene === null OR !scene[get(startscene)], copy(startscene,scene[0].name); );
 		loadscene(get(startscene), null, MERGE);
 		if(startactions !== null, startactions() );
+	</action>
+
+	<!--自动旋转-->
+	<autorotate enabled="true"
+				waittime="5.0"
+				speed="-3.0"
+				horizon="0.0"
+				tofov="120.0"
+	/>
+
+	<!--添加陀螺仪-->
+	<plugin name="gyro" devices="html5"
+			url="%SWFPATH%/plugins/gyro2.js"
+			enabled="false"
+			onavailable="gyro_available_info();"
+	/>
+
+	<action name="gyro_available_info">
+		set(layer[gyrobutton].visible, true);
 	</action>
 
 	<!--添加动态热点-->
