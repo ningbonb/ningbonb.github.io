@@ -5,7 +5,7 @@
     
     <entry>
       <title><![CDATA[移动端视频全屏播放]]></title>
-      <url>http://ningbo00.top/2017/09/18/videoFullScreen/</url>
+      <url>http://ningbo00.com/2017/09/18/videoFullScreen/</url>
       <content type="html"><![CDATA[<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>解决移动端视频全屏播放问题（竖屏），隐藏系统默认播放组件，阻止安卓默认弹出播放，在安卓微信端，使用X5同层全屏播放</p>
 <h2 id="安卓微信默认与使用X5同层对比图"><a href="#安卓微信默认与使用X5同层对比图" class="headerlink" title="安卓微信默认与使用X5同层对比图"></a>安卓微信默认与使用X5同层对比图</h2><p><img src="http://sales.nosdn.127.net/minisite-webskill-2017-09-18/fullScene.jpg" alt="安卓微信默认与使用X5同层对比图"></p>
 <p>Demo： <a href="http://test.go.163.com/go/2015/public/team/ningbo/geyoutaidu/test.html" target="_blank" rel="external">点此查看</a><br>原文链接： <a href="https://zhuanlan.zhihu.com/p/27559167" target="_blank" rel="external">点此查看</a></p>
@@ -16,7 +16,7 @@
     
     <entry>
       <title><![CDATA[移动端利用重力控制屏幕滚动]]></title>
-      <url>http://ningbo00.top/2017/07/21/gravityScroll/</url>
+      <url>http://ningbo00.com/2017/07/21/gravityScroll/</url>
       <content type="html"><![CDATA[<h1 id="gravityScroll"><a href="#gravityScroll" class="headerlink" title="gravityScroll"></a>gravityScroll</h1><p>移动端利用重力控制屏幕滚动，基于DOM</p>
 <h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><p><a href="http://go.163.com/2015/public/team/ningbo/gravityScroll/" target="_blank" rel="external">Demo 点击查看</a></p>
 <p><a href="https://github.com/NalvyBoo/gravityScroll" target="_blank" rel="external">Github 点击查看</a></p>
@@ -29,7 +29,7 @@
     
     <entry>
       <title><![CDATA[krpano全景笔记]]></title>
-      <url>http://ningbo00.top/2017/07/16/nodeKrpano/</url>
+      <url>http://ningbo00.com/2017/07/16/nodeKrpano/</url>
       <content type="html"><![CDATA[<h1 id="krpano"><a href="#krpano" class="headerlink" title="krpano"></a>krpano</h1><p>Krpano 可以方便快速的构建全景场景或全景视频(<a href="http://test.go.163.com/go/2015/public/team/ningbo/krpano/comn01/" target="_blank" rel="external">demo</a>)</p>
 <h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><ul>
 <li><a href="#krpano-droplet">Krpano Droplet</a><ul>
@@ -352,7 +352,7 @@
     
     <entry>
       <title><![CDATA[ES6-03 变量的解构赋值]]></title>
-      <url>http://ningbo00.top/2017/03/16/variate/</url>
+      <url>http://ningbo00.com/2017/03/16/variate/</url>
       <content type="html"><![CDATA[<p>原文链接：<a href="http://es6.ruanyifeng.com/#docs/destructuring" target="_blank" rel="external">http://es6.ruanyifeng.com/#docs/destructuring</a><br>源码地址：<a href="https://github.com/NalvyBoo/nodesES6/tree/master/ES6-03-%E5%8F%98%E9%87%8F%E7%9A%84%E8%A7%A3%E6%9E%84%E8%B5%8B%E5%80%BC" target="_blank" rel="external">https://github.com/NalvyBoo/nodesES6</a></p>
 <hr>
 <h2 id="数组的解构赋值"><a href="#数组的解构赋值" class="headerlink" title="数组的解构赋值"></a>数组的解构赋值</h2><p>ES6 允许按照一定模式，从数组和对象中提取值，对变量进行赋值，这被称为<strong>解构</strong>（Destructuring）  </p>
@@ -430,7 +430,7 @@
     
     <entry>
       <title><![CDATA[ES6-02 let 和 const 命令]]></title>
-      <url>http://ningbo00.top/2017/03/15/es6-let/</url>
+      <url>http://ningbo00.com/2017/03/15/es6-let/</url>
       <content type="html"><![CDATA[<p>原文链接：<a href="http://es6.ruanyifeng.com/" target="_blank" rel="external">http://es6.ruanyifeng.com/</a></p>
 <h1 id="let-和-const命令"><a href="#let-和-const命令" class="headerlink" title="let 和 const命令"></a>let 和 const命令</h1><h2 id="let基本用法"><a href="#let基本用法" class="headerlink" title="let基本用法"></a>let基本用法</h2><p>用法类似于var,但是所生命的变量，只在let所在的代码块内有效</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line">	<span class="keyword">let</span> a = <span class="number">10</span>;</div><div class="line">	<span class="keyword">var</span> b = <span class="number">1</span>;</div><div class="line">	<span class="built_in">console</span>.log(a); <span class="comment">// 10</span></div><div class="line">&#125;</div><div class="line"><span class="built_in">console</span>.log(<span class="string">"a:"</span> + a); <span class="comment">// a is not defined</span></div><div class="line"><span class="built_in">console</span>.log(<span class="string">"b:"</span> + b);</div></pre></td></tr></table></figure>
@@ -468,7 +468,7 @@
     
     <entry>
       <title><![CDATA[ES6-01 Babel 配置]]></title>
-      <url>http://ningbo00.top/2017/03/15/es6-babel/</url>
+      <url>http://ningbo00.com/2017/03/15/es6-babel/</url>
       <content type="html"><![CDATA[<p>原文链接：<a href="http://es6.ruanyifeng.com/" target="_blank" rel="external">http://es6.ruanyifeng.com/</a></p>
 <h1 id="Babel-配置"><a href="#Babel-配置" class="headerlink" title="Babel 配置"></a>Babel 配置</h1><h2 id="配置文件-babelrc"><a href="#配置文件-babelrc" class="headerlink" title="配置文件 .babelrc"></a>配置文件 <code>.babelrc</code></h2><ul>
 <li>使用Bable的第一步，在项目根目录下新建并配置文件 <code>.babelrc</code>  </li>
@@ -504,7 +504,7 @@
     
     <entry>
       <title><![CDATA[cssnext 语法说明]]></title>
-      <url>http://ningbo00.top/2017/02/17/cssnext/</url>
+      <url>http://ningbo00.com/2017/02/17/cssnext/</url>
       <content type="html"><![CDATA[<h1 id="cssnext-语法说明"><a href="#cssnext-语法说明" class="headerlink" title="cssnext 语法说明"></a>cssnext 语法说明</h1><p>支持书写CSS未来语法的插件，文章整理了支持PostCSS的常用语法</p>
 <ul>
 <li>自定义属性 &amp; <code>var()</code></li>
@@ -564,7 +564,7 @@
     
     <entry>
       <title><![CDATA[PreCSS 语法说明]]></title>
-      <url>http://ningbo00.top/2017/02/16/precss/</url>
+      <url>http://ningbo00.com/2017/02/16/precss/</url>
       <content type="html"><![CDATA[<h1 id="PreCSS-语法说明"><a href="#PreCSS-语法说明" class="headerlink" title="PreCSS 语法说明"></a>PreCSS 语法说明</h1><p>PreCSS是PostCSS的一种插件，用来进行CSS预编译</p>
 <ul>
 <li>PreCSS中的嵌套可以使用 <code>&amp;</code> 符，把父选择器复制到子选择器中</li>
@@ -623,7 +623,7 @@
     
     <entry>
       <title><![CDATA[PostCSS-Comn使用说明]]></title>
-      <url>http://ningbo00.top/2017/02/15/postCSS-Comn/</url>
+      <url>http://ningbo00.com/2017/02/15/postCSS-Comn/</url>
       <content type="html"><![CDATA[<h1 id="PostCSS-Comn"><a href="#PostCSS-Comn" class="headerlink" title="PostCSS-Comn"></a>PostCSS-Comn</h1><p>PostCSS-Comn使用说明，整合PostCSS常用功能<br>GitHub：<code>https://github.com/NalvyBoo/PostCSS-Comn</code></p>
 <h2 id="插件作用"><a href="#插件作用" class="headerlink" title="插件作用"></a>插件作用</h2><ul>
 <li>支持CSS未来语法</li>
@@ -715,7 +715,7 @@
     
     <entry>
       <title><![CDATA[H5解锁样式绘图（九宫格样式扩展）]]></title>
-      <url>http://ningbo00.top/2017/02/09/H5lock/</url>
+      <url>http://ningbo00.com/2017/02/09/H5lock/</url>
       <content type="html"><![CDATA[<h1 id="H5解锁样式绘图（九宫格样式扩展，支持Canvas和图片）"><a href="#H5解锁样式绘图（九宫格样式扩展，支持Canvas和图片）" class="headerlink" title="H5解锁样式绘图（九宫格样式扩展，支持Canvas和图片）"></a>H5解锁样式绘图（九宫格样式扩展，支持Canvas和图片）</h1><p>H5九宫格解锁 样式绘图（支持Canvas和图片）</p>
 <pre><code>http://test.go.163.com/go/2016/1227/H5lock/src/H5lock.js
 </code></pre><p>Github：<a href="https://github.com/NalvyBoo/H5lock/" target="_blank" rel="external">https://github.com/NalvyBoo/H5lock/</a></p>
@@ -787,7 +787,7 @@
     
     <entry>
       <title><![CDATA[CSS3 鲜为人知的属性]]></title>
-      <url>http://ningbo00.top/2017/02/03/CSS3/</url>
+      <url>http://ningbo00.com/2017/02/03/CSS3/</url>
       <content type="html"><![CDATA[<h1 id="CSS3-鲜为人知的属性"><a href="#CSS3-鲜为人知的属性" class="headerlink" title="CSS3 鲜为人知的属性"></a>CSS3 鲜为人知的属性</h1><h2 id="webkit-tap-highlight-color"><a href="#webkit-tap-highlight-color" class="headerlink" title="-webkit-tap-highlight-color"></a>-webkit-tap-highlight-color</h2><p>这个属性只用于iOS (iPhone和iPad)。当你点击一个链接或者通过Javascript定义的可点击元素的时候，它就会出现一个半透明的灰色背景。要重设这个表现，你可以设置-webkit-tap-highlight-color为任何颜色。<br>想要禁用这个高亮，设置颜色的alpha值为0即可。</p>
 <p>示例：设置高亮色为50%透明的红色:  </p>
 <pre><code>-webkit-tap-highlight-color: rgba(255,0,0,0.5);
@@ -1020,7 +1020,7 @@ q:after {content: close-quote}
     
     <entry>
       <title><![CDATA[web前端建站与学习常用网站]]></title>
-      <url>http://ningbo00.top/2016/12/10/f2e-websites/</url>
+      <url>http://ningbo00.com/2016/12/10/f2e-websites/</url>
       <content type="html"><![CDATA[<h1 id="web前端建站与学习常用网站"><a href="#web前端建站与学习常用网站" class="headerlink" title="web前端建站与学习常用网站"></a>web前端建站与学习常用网站</h1><h2 id="HTML常用手册网站"><a href="#HTML常用手册网站" class="headerlink" title="HTML常用手册网站"></a>HTML常用手册网站</h2><p>html手册，Sublime常用插件，图书、博客</p>
 <p>HTML、CSS、JS在各浏览器兼容情况：<a href="http://caniuse.com/" target="_blank" rel="external">http://caniuse.com/</a></p>
 <p>前端知识体系：<a href="http://www.cnblogs.com/sb19871023/p/3894452.html" target="_blank" rel="external">http://www.cnblogs.com/sb19871023/p/3894452.html</a></p>
@@ -1095,7 +1095,7 @@ q:after {content: close-quote}
     
     <entry>
       <title><![CDATA[javaScript和jQuery实现拖拽效果]]></title>
-      <url>http://ningbo00.top/2016/11/10/js-and-jq-drag/</url>
+      <url>http://ningbo00.com/2016/11/10/js-and-jq-drag/</url>
       <content type="html"><![CDATA[<h1 id="javaScript实现拖拽效果"><a href="#javaScript实现拖拽效果" class="headerlink" title="javaScript实现拖拽效果"></a>javaScript实现拖拽效果</h1><p>鼠标按下移动或者手指拖动对象，对象随之移动，鼠标放开或者手指离开屏幕，对象停止移动。</p>
 <h2 id="Event对象介绍"><a href="#Event对象介绍" class="headerlink" title="Event对象介绍"></a>Event对象介绍</h2><p>Event对象代表事件的状态，比如事件在其中发生的元素、键盘按键的状态、鼠标的位置、鼠标按钮的状态。</p>
 <p>事件通常与函数结合使用，函数不会在事件发生前被执行。</p>
@@ -1270,7 +1270,7 @@ div1.onmousedown = function(ev){
     
     <entry>
       <title><![CDATA[正则表达式]]></title>
-      <url>http://ningbo00.top/2016/10/10/reg/</url>
+      <url>http://ningbo00.com/2016/10/10/reg/</url>
       <content type="html"><![CDATA[<h1 id="正则表达式简介"><a href="#正则表达式简介" class="headerlink" title="正则表达式简介"></a>正则表达式简介</h1><h2 id="正则表达式的目的"><a href="#正则表达式的目的" class="headerlink" title="正则表达式的目的"></a>正则表达式的目的</h2><ol>
 <li>给定的字符串是否符合正则表达式的过滤逻辑（匹配）</li>
 <li>可以通过正则表达式，从字符串中获取我们想要的特定部分</li>
