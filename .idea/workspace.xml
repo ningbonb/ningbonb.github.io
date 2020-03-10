@@ -2,35 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ce81366-e41b-436b-81e1-f05536810f73" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/2016/11/10/js-and-jq-drag/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2017/02/03/CSS3/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2017/03/15/es6-babel/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2017/03/15/es6-let/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2017/03/16/variate/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2017/07/16/nodeKrpano/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2017/09/18/videoFullScreen/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archives/2016/10/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archives/2016/11/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archives/2016/12/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archives/2016/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archives/2017/02/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archives/2017/03/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archives/2017/07/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archives/2017/09/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archives/2017/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archives/2017/page/2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archives/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archives/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archives/page/2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/links/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/H5lock/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/H5lock/src/H5lock.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/H5lock/src/H5lock.publish.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/H5lock/src/star3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/H5lock/src/star4 (2).png" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -73,11 +46,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/production/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
               <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -114,16 +96,7 @@
         <option value="$PROJECT_DIR$/web/production/index.html" />
         <option value="$PROJECT_DIR$/web/production/style/index.css" />
         <option value="$PROJECT_DIR$/web/production/js/index.js" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/NalvyBoo.github.io.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -144,44 +117,6 @@
               <item name="NalvyBoo.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="NalvyBoo.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="NalvyBoo.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NalvyBoo.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="archives" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NalvyBoo.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NalvyBoo.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NalvyBoo.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NalvyBoo.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NalvyBoo.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NalvyBoo.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NalvyBoo.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NalvyBoo.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="pictures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NalvyBoo.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NalvyBoo.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -190,11 +125,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -218,12 +159,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583804279769</updated>
-      <workItem from="1583804280898" duration="6563000" />
+      <workItem from="1583804280898" duration="6944000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6563000" />
+    <option name="totallyTimeSpent" value="6944000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -342,6 +283,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
         </state>
       </provider>
     </entry>
