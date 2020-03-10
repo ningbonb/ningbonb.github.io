@@ -701,6 +701,10 @@ video {
   border: 1px solid #f0f0f0;
   background-color: #fff;
 }
+.post a{
+  display: block;
+  color: #666;
+}
 .post__head {
   margin: 50px;
 }
@@ -718,12 +722,13 @@ video {
   font-size: 24px;
   font-size: 1.5rem;
   font-weight: normal;
+  transition: all 0.3s;
 }
 .post__title > a {
   color: #666;
   transition: all 0.3s;
 }
-.post__title > a:hover {
+.post__title:hover,.post__title > a:hover {
   color: #9c396b;
   text-shadow: 1px 1px 1px #ddd;
 }
