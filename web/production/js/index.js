@@ -83,6 +83,36 @@ const infoArr = [
         src:'./assets/pictures/picture_11.png',
         time:'2018-08-26',
     },{
+        title:'新旧交替 太岁换班',
+        tip:'游戏 / 创意交互 / Canvas',
+        href:' https://go.163.com/web/20190203_taidu/index.html',
+        src:'./assets/pictures/picture_17.png',
+        time:'2019-02-03',
+    },{
+        title:'探见千里江山',
+        tip:'收集 / 创意 / Video',
+        href:'https://go.163.com/web/20190513_chevrolet/index.html',
+        src:'./assets/pictures/picture_11.png',
+        time:'2019-05-13',
+    },{
+        title:'探秘芒种',
+        tip:'动态展示 / 创意交互 / Canvas',
+        href:'https://go.163.com/web/20190606_taidu/index.html',
+        src:'./assets/pictures/picture_16.png',
+        time:'2019-06-06',
+    },{
+        title:'中秋诗词大会',
+        tip:'创意交互 / 游戏 / 拖拽 / DIY / Canvas',
+        href:'https://go.163.com/web/20190913_poetry/index.html',
+        src:'./assets/pictures/picture_12.png',
+        time:'2019-09-13',
+    },{
+        title:'天猫-我的人生动力表',
+        tip:'创意 / 清单 / DIY',
+        href:'https://go.163.com/web/20190616_tmall/index.html',
+        src:'./assets/pictures/picture_14.png',
+        time:'2019-06-16',
+    },{
         title:'一场关于撩的终极考验',
         tip:'趣味问答 / Video',
         href:'https://go.163.com/web/20191010_bmw/index.html',
@@ -100,6 +130,12 @@ const infoArr = [
         href:'https://go.163.com/web/20200101_yili_3/index.html',
         src:'./assets/pictures/picture_35.png',
         time:'2020-01-01',
+    },{
+        title:'疫情 AR 小程序【遇见AR】',
+        tip:'小程序 / AR',
+        href:'',
+        src:'./assets/pictures/picture_13.png',
+        time:'2020-03-01',
     },
 ];
 window.onload = ()=>{
