@@ -72,7 +72,7 @@ body{
     text-align: left;
     background: #fff;
 }
-.tip{
+.tip,.time{
     position: relative;
     background: #fff;
     padding: 15px 25px;
@@ -82,15 +82,22 @@ body{
     text-align: left;
     line-height: 14px;
 }
+.time{
+    text-align: right;
+    padding: 0 25px 10px;
+}
 @media screen and (max-width: 1000px) {
     .title{
         font-size: 15px;
         padding: 10px;
         line-height: 18px;
     }
-    .tip{
+    .tip,.time{
         padding: 10px;
         font-size: 12px;
         line-height: 12px;
+    }
+    .time{
+        padding: 0 10px 5px;
     }
 }
