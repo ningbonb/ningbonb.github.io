@@ -184,14 +184,14 @@ const infoArr = [
     {
         title:'疫情 AR 小程序【遇见AR】',
         tip:'小程序 / AR',
-        href:'',
+        href:'./assets/pictures/picture_13.png',
         src:'./assets/pictures/picture_13.png',
         time:'2020-03-01',
     },
     {
         title:'可以手机扫码观看',
         tip:'微信打不开可以复制链接到手机浏览器查看',
-        href:'',
+        href:'./assets/pictures/picture_0.png',
         src:'./assets/pictures/picture_0.png',
         time:'',
     },
