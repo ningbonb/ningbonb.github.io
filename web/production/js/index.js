@@ -189,6 +189,20 @@ const infoArr = [
         time:'2020-04-13',
     },
     {
+        title:'AR 手势大挑战',
+        tip:'小程序 / AR / AI',
+        href:'https://go.163.com/f2e/20200709_jweixin/index.html',
+        src:'./assets/pictures/picture_46.png',
+        time:'2020-07-09',
+    },
+    {
+        title:'AR 表情大挑战',
+        tip:'小程序 / AR / AI',
+        href:'https://go.163.com/f2e/20200810_ar_face/index.html',
+        src:'./assets/pictures/picture_45.png',
+        time:'2020-08-10',
+    },
+    {
         title:'杜蕾斯：恋爱同步专项测试',
         tip:'多人 / 创意',
         href:'https://go.163.com/f2e/20200929_durex/index.html',
